@@ -1,0 +1,13 @@
+{
+	"result": {
+		"version": 2,
+		"appName": "KVBWALLET",
+		"minimumRequiredVersion": 102,
+		"currentVersion": 102,
+		"dbVersion": "1",
+		"mandatoryUpdateText":"You must update KVB BHARAT QR to continue using",
+		"optionalUpdateText": "A new version of KVB BHARAT QR is available",
+		"id":1,
+                "linkCardFee":100
+	}
+}

@@ -1,0 +1,15 @@
+{
+        "result": {
+                "version": 1,
+                "appName": "SALES TEAM ACTIVATION",
+                "minimumRequiredVersion": 102,
+                "currentVersion": 102,
+                "dbVersion": "4",
+                "updateText": "A new version of SALES TEAM is available",
+                "mandatoryUpdateText":"A new version of SALES TEAM is available. Kindly update the app to continue",
+                "optionalUpdateText": "A new version of SALES TEAM is available. You may choose to update now, or later",
+                "id": 1,
+                "minActivationAmount": 1
+                
+        }
+}

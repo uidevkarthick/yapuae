@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product List - YAP</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.svg" alt="logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link navactive" href="product-list.html">Flows</a>
+              </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/">Docs</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-dark">Get API
+                Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section pro_list">
+    <div class="inner_section container">
+      <div class="row mb">
+        <div class="col-md-6">
+          <span class="yap_tagline">Flows</span>
+
+          <h2 class="yap_title">Payments Redefined</h2>
+
+          <p>
+            We are redefining Payments with our open API platform built by and
+            for developers to co-create world class products and experiences
+          </p>
+
+          <div class="grp_btn">
+            <!-- <a href="#" class="butn butn-light">Try out</a> -->
+            <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-dark">Get API Keys</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/product/product.svg" />
+        </div>
+      </div>
+
+      <div class="row pro_list_mar_top">
+        <div class="col-md-12">
+          <ul class="nav nav-pills mb-3 bg_grey mobile_tab_scroll" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                aria-controls="pills-profile" aria-selected="false">Payments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                aria-controls="pills-home" aria-selected="true">Lending</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                aria-controls="pills-contact" aria-selected="false">Banking</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="icon_list">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/CardsnWallets.svg" alt="key" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Wallet and Cards</h3>
+                        <p>
+                          The Operating System for Wallet and Cards. Open APIs
+                          for those looking to innovate and launch compelling
+                          Payment products on top of a secure, robust and
+                          scalable platform
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/payment-wallet" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/JiT.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Just-in-Time Funding</h3>
+                        <p>
+                          Control transactions, authorize payments and have
+                          full control of money flow by funding the accounts
+                          Just-In-Time!
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/payment-just-in-time" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/CrossBorder.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Cross Border</h3>
+
+                        <p>
+                          Capture all inbound and outbound spends using our
+                          Digital Travel Money and Remittance platforms
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/payment-cross-border" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Gift.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Gift</h3>
+
+                        <p>
+                          Omnichannel Gift platform for creating Your own
+                          brand of Corporate and Retail gifting products.
+                          Choose from a variety of Virtual, Physical,
+                          Tokenized cards, Brand vouchers and coupons
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="single-product-flow.html" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Fleet.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Fleet</h3>
+
+                        <p>
+                          Manage and track your Fleet spends across Toll
+                          Payments, Driver Expenses and Fuel payments using
+                          our Fleet Platform.
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/payment-fleet" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/UPI.svg" alt="dollar" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>UPI and Acceptance</h3>
+                        <p>
+                          Send and Accept Payments interoprably using BHIM UPI
+                          and BharatQR. Over Half-a-Million Merchants and
+                          counting
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/payment-upi-acceptance" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="icon_list">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Consumer.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Consumer</h3>
+
+                        <p>
+                          Optimized lending flows designed to suit all types
+                          of lenders - from traditional NBFCs to Consumer
+                          Internet Companies to new-age lending startups
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/lending-consumer" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Corporate.svg" alt="key" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Corporate</h3>
+
+                        <p>
+                          Control and track Business spends with a suite of
+                          tailor-made lending solutions for Corporate.
+                          Just-in-Time funding provides complete flexibility
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/lending-corporate" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/SME.svg" alt="dollar" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>SME</h3>
+
+                        <p>
+                          Empower SMEs with funds as and when they need it.
+                          Provide credit Just-in-Time based on earnings of
+                          Merchants or draw from Overdraft accounts
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/lending-sme" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/CreditCard.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Credit Card</h3>
+
+                        <p>
+                          Modern Credit Card issuance made fully available on
+                          APIs for innovators to design world-class
+                          experiences
+                        </p>
+                      </div>
+
+                      <div class="icon_btn hover_btn">
+                        <a href="/lending-creditcard" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="icon_list">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Accounts.svg" alt="lend" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Accounts</h3>
+
+                        <p>
+                          Open, control and manage Savings and Current
+                          accounts in seconds with our open API Banking
+                          platform.
+                        </p>
+                      </div>
+
+                      <div class="icon_btn">
+                        <a href="/banking-account" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Deposits.svg" alt="key" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Deposits</h3>
+
+                        <p>
+                          Book and manage Recurring, Fixed and Multi Deposits
+                          in a jiffy
+                        </p>
+                      </div>
+
+                      <div class="icon_btn">
+                        <a href="/banking-deposit" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="icon_box border_color">
+                      <div class="icon">
+                        <img src="/assets/images/Investments.svg" alt="dollar" />
+                      </div>
+
+                      <div class="icon_content">
+                        <h3>Investments</h3>
+
+                        <p>
+                          Purchase Gold, invest in Mutual Funds and market
+                          linked products
+                        </p>
+                      </div>
+
+                      <div class="icon_btn">
+                        <a href="/banking-investment" class="trycolor trycolor-out">Explore</a>
+                        <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="" /></a></span>
+  </div>
+</body>
+
+</html>

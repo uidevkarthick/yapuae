@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Create a go-to-market for sachet loans with our tailored consumer lending APIs. Our technology stack helps you create a new stream of opportunities." />
+  <meta name="keywords" content="consumer lending api, yap lending api, yap consumer api,yap consumer lending api " />
+
+  <title>Lending Consumer - YAP</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <link href="/assets/css/prism.css" rel="stylesheet" />
+  <script src="/assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.svg" alt="logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/">Docs</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section banner_for_single_product">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6">
+          <span class="yap_tagline">Lending\ Consumer</span>
+
+          <h1 class="yap_title cross-border">
+            Harnessing new lending capabilities
+          </h1>
+
+          <p>
+            With YAP's robust APIs, Fintechs today can extend lending to every
+            customer – be it a student or -early-career professionals.
+          </p>
+
+          <div class="grp_btn">
+            <a href="#" class="butn butn-light">Try out</a>
+
+            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/single-product/Consumer.png" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="yap_tagline">product features</span>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Disburse funds in real-time.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Disburse funds in real-time</h4>
+
+              <p>
+                Create a go-to scenario for sachet loans to meet an immediate
+                need, all within a few simple clicks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Faster transaction processing.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Faster transaction processingr</h4>
+
+              <p>
+                Render a seamless end-to-end flow of funds at a lightning
+                speed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Integrate secure APIs.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Integrate secure APIs</h4>
+
+              <p>
+                Sophisticated APIs that create endless possibilities and
+                scenarios for new-age lending.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Accelerate your earnings.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Accelerate your earnings</h4>
+
+              <p>
+                Grow your revenue by capturing customers who are often missed
+                by traditional lenders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="section_doodle_animation">
+      <div class="inner_section container doodle_height">
+        <span class="yap_tagline">customers using this solution</span>
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+        <div class="doode_top">
+          <div class="row doodle_slider d-block">
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="doodle bx_ani">
+                <div class="fine_ap">
+                  <span id="box1" class="firstspan box">
+                    Doodle
+                  </span>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="fina bx_ani">
+                <div class="fine_aplle_height">
+                  <span id="box2" class="secoundspan box">
+                    <img
+                      src="/assets/images/single-product/fineapple.svg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="face bx_ani">
+                <div class="fb_rotate">
+                  <span id="box3" class="secoundspan">
+                    <img src="/assets/images/single-product/fb.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="mail bx_ani">
+                <div class="mail_height">
+                  <span id="box4" class="secoundspan">
+                    <img src="/assets/images/single-product/mail.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="stroke bx_ani">
+                <div class="stroke_pad">
+                  <span id="box5" class="secoundspan">
+                    <img src="/assets/images/single-product/stroke.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  <section class="section_doodle_animation">
+    <div class="container inner_section doodle_height">
+      <div class="row flow-xs-rev">
+        <div class="col-lg-6 col-md-7">
+          <span class="yap_tagline">Flow in use</span>
+          <h2 class="fleet">Here's how we spliced SlicePay's money flow</h2>
+          <!-- <a href="javascript:;" class="butn butn-white-trans"
+              >Read use case in detail</a
+            > -->
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div class="doodle_img">
+            <img src="/assets/images/single-product/shape.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__products secound_flow_section padding0">
+    <div class="inner_section container cross_nopadd">
+      <span class="yap_tagline">the Challenge</span>
+      <div class="row">
+        <div class="col-lg-3 col-md-5">
+          <h4 class="yap_title">No Credit history = No loan</h4>
+        </div>
+
+        <div class="col-lg-5 col-md-6">
+          <p class="single_para_top">
+            Getting a credit line from established and traditional lenders is
+            not a choice for individuals with no credit history. Yet, it was
+            an untapped stream of potential borrowers with infinite
+            possibilities.
+          </p>
+        </div>
+      </div>
+      <div class="icon_list">
+        <span class="yap_tagline">the solution</span>
+        <div class="row">
+          <div class="col-lg-3 col-md-5">
+            <h4 class="yap_title">No credit history = SlicePay</h4>
+          </div>
+
+          <div class="col-lg-5 col-md-6">
+            <p class="single_para_top">
+              Slice, a fintech, was designing a credit platform to serve those
+              potential borrowers often ignored by traditional lenders. It
+              offered a line of credit based on the applicant's background
+              information so that borrowers could get loans and, in turn,
+              build their credit histories.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="icon_list">
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <span class="yap_tagline">the outcome</span>
+
+            <h4 class="yap_title">Transactions - and counting...</h4>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">No. of transactions </span>
+              <p class="no_bottom"><span>1.8</span> Million</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">amount transacted </span>
+              <p class="no_bottom"><span>11.5</span> Million $</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mar_24">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-3">
+              <a href="/flows" class="read_flow_details"
+                >Read flow details</a
+              >
+            </div>
+            <div class="col-md-3"></div>
+          </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section__6 end_point_overview">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-4 order-xs-1">
+          <span class="yap_tagline">end point overview </span>
+
+          <h2 class="yap_title">Workings of YAP credit platform</h2>
+
+          <p>
+            YAP acts as a payment layer facilitating transactions between
+            network and client
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="api_list">
+            <ul>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a href="">
+                  Slice pay card is swiped at the shop's terminal
+                </a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The network reroutes the transaction to YAP, where the card
+                  details are authenticated</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a href="">
+                  Then, in real-time, YAP sends a request to Slice for
+                  transaction approval
+                </a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The transaction is then confirmed and the account to be
+                  debited is also confirmed</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The money is moved from the designated account to the card,
+                  and the transaction goes through
+                </a>
+              </li>
+            </ul>
+            <div class="view_api_docs">
+              <!-- <a href="https://docs.yappay.in" class="butn butn-dark">View API Docs</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="/assets/images/single-product/overlay.svg" alt="" class="overloay_img" />
+          <div class="code_bx">
+            <div class="tlt_sec">
+              <div class="hed_tlt_sec">
+                <p class="tlt">API Response</p>
+
+                <div class="ac_center">
+                  <span class="run_code">Run</span>
+                </div>
+              </div>
+            </div>
+            <div class="c_prt">
+              <pre>
+                            <code class="language-json">
+                                [
+                                    {
+                                        "name": "Afghanistan",
+                                        "code": "AF"
+                                    },
+                                    {
+                                        "name": "Åland Islands",
+                                        "code": "AX"
+                                    },
+                                    {
+                                        "name": "Albania",
+                                        "code": "AL"
+                                    }
+                                ]
+                            </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__6 testimonial padding_90">
+    <div class="testimonial_container">
+      <div class="testimonial_content">
+        <span class="tagline">what they say?</span>
+
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+
+        <div class="testimonial_slider">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="author_content">
+                  <p>
+                    When we were looking out for payment infrastructure
+                    companies, we evaluated few partners in India. YAP was the
+                    only one where we saw that the team was trying to build
+                    the whole technology stack inhouse. Everyone at YAP is
+                    approachable and agile. It has been a great experience
+                    working with YAP.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>
+                    Rajan Bajaj <br />
+                    <span>SlicePay, Founder & CEO </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section__flows flows_feature we_support_sec">
+      <div class="inner_section container">
+        <div class="">
+          <div class="">
+            <span class="yap_tagline">explore other products</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/savemoney.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Corporate</h4>
+
+                  <p>
+                    Control and track Business spends with a suite of
+                    tailor-made lending solutions for Corporate. Just-in-Time
+                    funding provides complete flexibility .
+                  </p>
+
+                  <a href="/lending-corporate" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/plant.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>SME</h4>
+
+                  <p>
+                    Empower SMEs with funds as and when they need it. Provide
+                    credit Just-in-Time based on earnings of Merchants or draw
+                    from Overdraft accounts
+                  </p>
+
+                  <a href="/lending-sme" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/discount.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Credit Card</h4>
+
+                  <p>
+                    Modern Credit Card issuance made fully available on APIs for
+                    innovators to design world-class experiences.
+                  </p>
+
+                  <a
+                    href="/lending-creditcard"
+                    class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section__flows flows_feature we_support_sec">
+    <div class="container inner_section">
+      <div class="payment_headings">
+        <span class="yap_tagline">Explore other flows</span>
+
+        <div class="big_title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>In Lending</h2>
+            </div>
+          </div>
+        </div>
+        <div class="icon_list">
+          <div class="row">
+            <!-- <div class="col-md-6 col-lg-4 col-sm-6">
+                <div class="icon_box border_color">
+                  <div class="icon">
+                    <img src="/assets/images/Consumer.svg" alt="lend" />
+                  </div>
+
+                  <div class="icon_content">
+                    <h3>Consumer</h3>
+
+                    <p>
+                      Optimized lending flows designed to suit all types of
+                      lenders - from traditional NBFCs to Consumer Internet
+                      Companies to new-age lending startups
+                    </p>
+                  </div>
+
+                  <div class="icon_btn hover_btn">
+                    <a href="/lending-consumer" class="trycolor trycolor-out"
+                      >Try out API</a
+                    >
+                    <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                  </div>
+                </div>
+              </div> -->
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Corporate.svg" alt="key" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Corporate</h3>
+
+                  <p>
+                    Control and track Business spends with a suite of
+                    tailor-made lending solutions for Corporate. Just-in-Time
+                    funding provides complete flexibility
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-corporate" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/SME.svg" alt="dollar" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>SME</h3>
+
+                  <p>
+                    Empower SMEs with funds as and when they need it. Provide
+                    credit Just-in-Time based on earnings of Merchants or draw
+                    from Overdraft accounts
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-sme" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/CreditCard.svg" alt="lend" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Credit Card</h3>
+
+                  <p>
+                    Modern Credit Card issuance made fully available on APIs
+                    for innovators to design world-class experiences
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-creditcard" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__career product-no-btm d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+          <div class="career_content">
+            <span class="yap_tagline">Banking\ Accounts </span>
+
+            <h3 class="yap_title career_subscribe_text">
+              Offering <br />new-age banking
+            </h3>
+            <a href="javascript:;" class="butn butn-white-trans career_btn">Discover our flows
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="" /></a></span>
+  </div>
+</body>
+
+</html>

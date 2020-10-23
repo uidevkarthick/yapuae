@@ -1,0 +1,19 @@
+{
+	"minimumCardAmount": 10,
+	"maximumCardAmount": 2000,
+	"minimumMobileAmount": 10,
+	"maximumMobileAmount": 2000,
+	"depositWalletId": "1000201",
+	"cardDeductionCharges": 1,
+	"priceList": [{
+		"itemName": "Rs. 30",
+		"itemPrice": 30
+	}, {
+		"itemName": "Rs. 40",
+		"itemPrice": 40
+	}, {
+                "itemName": "Rs. 50",
+                "itemPrice": 50
+        }
+]
+}

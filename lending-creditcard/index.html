@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Launch new credit programs using YAP's full-stack API platform. Capture unique credit card users by deploying our advanced and robust payment stack." />
+  <meta name="keywords"
+    content="credit cards, credit card fintech, credit card api, api credit card, credit card payment apis, credit card payment processing apis " />
+
+  <title>YAP - Credit card - Innovating credit card issuance</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <link href="/assets/css/prism.css" rel="stylesheet" />
+  <script src="/assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/uae">
+          <img src="/assets/images/logo.svg" alt="Yap_Logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section banner_for_single_product">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6">
+          <span class="yap_tagline">Lending | Credit Cards</span>
+
+          <h1 class="yap_title lending-corporate">
+            Innovating credit card issuance
+          </h1>
+
+          <p>
+            Create custom credit card programs to suit your customer needs.
+            Our developer-friendly APIs let you grab credit opportunities all
+            around you.
+          </p>
+
+          <div class="grp_btn">
+            <a href="#endpoint" class="butn butn-light">Try out</a>
+
+            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/single-product/Credit card.png" alt="creditcard" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="yap_tagline">product features</span>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Create revenue streams.svg" alt="RevenueStream" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Create revenue streams</h4>
+
+              <p>
+                Increase your revenue by banking on both secured and
+                non-secured credit opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Quick integration.svg" alt="QuickIntegration" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Quick integration</h4>
+
+              <p>
+                Our platform is backed by a dedicated back-end team who are
+                skilled in integrations and implementations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/High Engagements are now a reality.svg" alt="HighEngagement" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Tap into untapped</h4>
+              <p>
+                Extend your reach to those customers who may not be eligible
+                for traditional lending.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Optimize processes.svg" alt="OptimizeProcess" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Optimize processes</h4>
+
+              <p>
+                Leverage our digital infrastructure to gain operational
+                efficiency to strengthen your card program.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="section_doodle_animation">
+      <div class="inner_section container doodle_height">
+        <span class="yap_tagline">customers using this solution</span>
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+        <div class="doode_top">
+          <div class="row doodle_slider d-block">
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="doodle bx_ani">
+                <div class="fine_ap">
+                  <span id="box1" class="firstspan box">
+                    Doodle
+                  </span>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="fina bx_ani">
+                <div class="fine_aplle_height">
+                  <span id="box2" class="secoundspan box">
+                    <img
+                      src="/assets/images/single-product/fineapple.svg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="face bx_ani">
+                <div class="fb_rotate">
+                  <span id="box3" class="secoundspan">
+                    <img src="/assets/images/single-product/fb.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="mail bx_ani">
+                <div class="mail_height">
+                  <span id="box4" class="secoundspan">
+                    <img src="/assets/images/single-product/mail.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="stroke bx_ani">
+                <div class="stroke_pad">
+                  <span id="box5" class="secoundspan">
+                    <img src="/assets/images/single-product/stroke.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section_doodle_animation">
+    <div class="container inner_section doodle_height">
+      <div class="row flow-xs-rev">
+        <div class="col-lg-6 col-md-7">
+          <span class="yap_tagline">Flow in use</span>
+          <h2 class="fleet">That's how we make credit card flow</h2>
+          <!-- <a href="javascript:;" class="butn butn-white-trans"
+              >Read use case in detail</a
+            > -->
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div class="doodle_img">
+            <img src="/assets/images/single-product/shape.svg" alt="semicircle" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__products secound_flow_section padding0">
+    <div class="inner_section container cross_nopadd">
+      <span class="yap_tagline">the Challenge</span>
+      <div class="row">
+        <div class="col-lg-3 col-md-5">
+          <h4 class="yap_title">How to build a credit score?</h4>
+        </div>
+
+        <div class="col-lg-5 col-md-6">
+          <p class="single_para_top">
+            Getting a credit card is not an option for individuals with no
+            credit history. The same applies to individuals who have a history
+            of bad credit. However, this stream of borrowers presented a
+            goldmine of opportunities.
+          </p>
+        </div>
+      </div>
+      <div class="icon_list">
+        <span class="yap_tagline">the solution</span>
+        <div class="row">
+          <div class="col-lg-3 col-md-5">
+            <h4 class="yap_title">
+              Get a secured credit card using FD and build your credit score
+            </h4>
+          </div>
+
+          <div class="col-lg-5 col-md-6">
+            <p class="single_para_top">
+              Lender offered a secured credit card against Fixed deposits
+              opened by individuals with no or bad credit score. It opened up
+              a flow of new opportunities and created new markets for secured
+              borrowing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="icon_list">
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <span class="yap_tagline">the outcome</span>
+
+            <h4 class="yap_title">Transactions - and counting...</h4>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">No. of transactions </span>
+              <p class="no_bottom"><span>2.2</span> Million</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">amount transacted </span>
+              <p class="no_bottom"><span>$22.5</span> Million</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mar_24">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-3">
+              <a href="/flows" class="read_flow_details"
+                >Read flow details</a
+              >
+            </div>
+            <div class="col-md-3"></div>
+          </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section__6 end_point_overview">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-4 order-xs-1">
+          <span class="yap_tagline">end point overview </span>
+
+          <h2 class="yap_title">Workings of YAP Credit</h2>
+
+          <p>The journey of issuing a secured credit card</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="api_list">
+            <ul id="api_list_group">
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="blacktick" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="greentick" /> </span><a
+                  href="javascript:;">The customer opens the Fixed deposit along with
+                  Aadhaar-based XML verification</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="blacktick" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="greentick" /> </span><a
+                  href="javascript:;">The funds are transferred to the partner bank, and YAP is
+                  notified of the transfer</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="blacktick" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="greentick" /> </span><a
+                  href="javascript:;">Bank cross-checks the transfer and issues a fixed deposit
+                  certificate
+                </a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="blacktick" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="greentick" /> </span><a
+                  href="javascript:;">Once the certificate is issued, YAP proceeds to assign the
+                  credit card to the customer</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="blacktick" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="greentick" /> </span><a
+                  href="javascript:;">Lender is notified to assign limit, and the credit card is
+                  issued to the customer</a>
+              </li>
+            </ul>
+            <div class="view_api_docs">
+              <!-- <a href="https://docs.yappay.in" class="butn butn-dark">View API Docs</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="/assets/images/single-product/overlay.svg" alt="" class="overloay_img" />
+          <div class="code_bx">
+            <div class="tlt_sec">
+              <div class="hed_tlt_sec">
+                <p class="tlt">API Response</p>
+                <div class="ac_center">
+                  <span id="run_code_ss" class="run_code">Run</span>
+                </div>
+              </div>
+            </div>
+            <div class="c_prt">
+              <pre id="pri_code" style="height: 368px">
+                            <code class="language-json">
+                                {
+                                    "mti": "0200",
+                                    "pan": "5088830000000037",
+                                    "processingCode": "311000",
+                                    "transactionAmount": "0000000000000",
+                                    "settlementAmount": null,
+                                    "cardHolderBillingAmount": null,
+                                    "dateTimeTransaction": "0412183004",
+                                    "settlementConversionRate": null,
+                                    "cardholderBillingConversionRate": null,
+                                    "stan": "247972",
+                                    "rrn": "242772502272",
+                                    "timeLocalTransaction": null,
+                                    "dateLocalTransaction": "183008",
+                                    "expiryDate": null,
+                                    "settlementDate": null,
+                                    "conversionDate":null,
+                                    "mcc": "6011",
+                                    "channel": null,
+                                    "acquiringCountryCode": "356",
+                                    "posEntryMode": "901",
+                                    "cardSeqNumber": null,
+                                    "pointOfServiceConditionCode": "00",
+                                    "feesAmount": null,
+                                    "acquiringInstitutionCode": "720397",
+                                    "forwardingInstitutionCode": null,
+                                    "track2Data": "5088830000000037=2100520768000000000",
+                                    "authorizationIdResponse": null,
+                                    "responseCode": null,
+                                    "serviceConditionCode": "520",
+                                    "cardAcceptorTerminalId": "TEST1234",
+                                    "cardAcceptorId": "TEST12345678901",
+                                    "cardAcceptorNameLocation": "M2PBANK KARTHICK TNIN",
+                                    "additionalResponseData": null,
+                                    "track1Data": null,
+                                    "additionalData48": "051005POS010520032940560023105800500999061030000000000000000012000000000000071042103.014.161.0050000000000000000000000003560770401000000000000000000000000000000000105200",
+                                    "transactionCurrencyCode": "356",
+                                    "settlementCurrencyCode": null,
+                                    "cardholderBillingCurrencyCode": null,
+                                    "pinData": "419E0B8AAD1D2B2F0000000000000000",
+                                    "additionalAmount": "9090356D000000001000",
+                                    "chipData": null,
+                                    "adviceReasonCode": null,
+                                    "posDataCode": "5116615GA000000400051AddressAddressAddres",
+                                    "privateData1BiometricData": null,
+                                    "privateData2EncryptedBiometricData": null,
+                                    "networkManagementCode": null,
+                                    "originalDataElement": null,
+                                    "fileUpdateCode": null,
+                                    "replacementAmount": null,
+                                    "fileName101": null,
+                                    "accountIdentification1": null,
+                                    "accountIdentification2": null,
+                                    "reservedForPrivateUse": nullrn
+                                }
+                                
+                            </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  <section class="section__6 testimonial padding_90">
+    <div class="testimonial_container">
+      <div class="testimonial_content">
+        <span class="tagline">what they say?</span>
+
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+
+        <div class="testimonial_slider">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="testimonial_title">Innovative</h4>
+              </div>
+
+              <div class="col-md-6">
+                <div class="author_content">
+                  <p>
+                    We are now able to experiment with many new-age solutions
+                    like replacing physical cards with virtual cards for an
+                    overseas customer, trying to build solutions around
+                    tokenization, and testing with blue sky thinking.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>Ritesh Pai <br />Yes Bank, CDO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- 
+    <section class="section__flows flows_feature we_support_sec">
+      <div class="inner_section container">
+        <div class="">
+          <div class="">
+            <span class="yap_tagline">explore other products</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/savemoney.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Consumer</h4>
+
+                  <p>
+                    Optimized lending flows designed to suit all types of
+                    lenders - from traditional NBFCs to Consumer Internet
+                    Companies to new-age lending startups.
+                  </p>
+
+                  <a href="/lending-consumer" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/plant.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Corporate</h4>
+
+                  <p>
+                    Control and track Business spends with a suite of
+                    tailor-made lending solutions for Corporate. Just-in-Time
+                    funding provides complete flexibility
+                  </p>
+
+                  <a href="/lending-corporate" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/discount.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>SME</h4>
+
+                  <p>
+                    Empower SMEs with funds as and when they need it. Provide
+                    credit Just-in-Time based on earnings of Merchants or draw
+                    from Overdraft accounts
+                  </p>
+
+                  <a href="/lending-sme" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section__flows flows_feature we_support_sec">
+    <div class="container inner_section">
+      <div class="payment_headings">
+        <span class="yap_tagline">Explore other flows</span>
+
+        <div class="big_title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>In Lending</h2>
+            </div>
+          </div>
+        </div>
+        <div class="icon_list">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Consumer.svg" alt="consumerlending" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Consumer</h3>
+
+                  <p>
+                    Optimized lending flows designed to suit all types of
+                    lenders - from traditional NBFCs to Consumer Internet
+                    Companies to new-age lending startups
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-consumer" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Corporate.svg" alt="CorporateLending" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Corporate</h3>
+
+                  <p>
+                    Control and track Business spends with a suite of
+                    tailor-made lending solutions for Corporate. Just-in-Time
+                    funding provides complete flexibility
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-corporate" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/SME.svg" alt="SME_Lending" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>SME</h3>
+
+                  <p>
+                    Empower SMEs with funds as and when they need it. Provide
+                    credit Just-in-Time based on earnings of Merchants or draw
+                    from Overdraft accounts
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/lending-sme" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-6 col-lg-4 col-sm-6">
+                  <div class="icon_box border_color">
+                    <div class="icon">
+                      <img src="/assets/images/CreditCard.svg" alt="lend" />
+                    </div>
+  
+                    <div class="icon_content">
+                      <h3>Credit Card</h3>
+  
+                      <p>
+                        Modern Credit Card issuance made fully available on APIs
+                        for innovators to design world-class experiences
+                      </p>
+                    </div>
+  
+                    <div class="icon_btn hover_btn">
+                      <a
+                        href="/lending-creditcard"
+                        class="trycolor trycolor-out"
+                        >Try out API</a
+                      >
+                      <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                    </div>
+                  </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__career product-no-btm d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" alt="Yap_Team" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+          <div class="career_content">
+            <span class="yap_tagline">Payments | Wallets & cards </span>
+
+            <h3 class="yap_title career_subscribe_text">
+              Go cashless <br />with our hassle-free cards
+            </h3>
+            <a href="/payment-wallet-cards" class="butn butn-white-trans career_btn">Discover our flows
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="SwipeUp" /></a></span>
+  </div>
+</body>
+
+</html>

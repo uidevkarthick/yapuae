@@ -1,0 +1,13 @@
+
+{
+        "result": {
+                "version": 102,
+                "appName": "FOREXSUPERAPP",
+                "minimumRequiredVersion": 102,
+                "currentVersion": 102,
+                "dbVersion": "1",
+                "mandatoryUpdateText": "A new version of FOREXSUPERAPP is available. Kindly update the app to continue",
+                "optionalUpdateText": "A new version of FOREXSUPERAPP is available. You may choose to update now, or later",
+                "id": 1
+        }
+}

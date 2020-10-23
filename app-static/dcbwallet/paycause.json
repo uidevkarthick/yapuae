@@ -1,0 +1,15 @@
+[{
+	"merchantId": "PFC001",
+	"causeTitle": "President Relief Fund",
+	"causeDescription": "The President Relief Fund helps in rehabilitation of familes affected by the Chennai Floods",
+	"imgUrl": "Donate.jpg",
+	"minimumAmount": 10,
+	"maximumAmount": 10000
+}, {
+	"merchantId": "PFC002",
+	"causeTitle": "Child Rights and You",
+	"causeDescription": "Migration, no schools, discrimination are some reasons why children drop out of school. CRY tackles root causes that force children to drop out of school so that they enjoy a future full of opportunities. An educated child today becomes a strong and independent individual tomorrow. Join us in making a difference. Every contribution counts.",
+	"imgUrl": "cry.jpg",
+	"minimumAmount": 10,
+	"maximumAmount": 10000
+}]

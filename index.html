@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0
+      maximum-scale=1" />
+
+    <meta name=”description”
+        content="The API standard for Banking and Payments.  We make money flow safer, simpler, and faster. See how we transform every business into a fintech.">
+    <meta name="keywords"
+        content=" API platform, API integration platform, YAP API platform, Plug-n-play API platform, Full Stack API platform, fintech platform, Payments as a service platform, YAP fintech API">
+
+    <title>Home - API Standard for Banking and Payments</title>
+
+    <!-- Bootstrap CSS initialize -->
+
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS initialize -->
+
+    <!-- Slick css -->
+
+    <link href="/assets/vendor/slick/slick.css" rel="stylesheet" type="text/css" />
+
+    <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+
+    <!-- Slick CSS -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+    <!-- Main Css -->
+
+    <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+    <!-- Main Css -->
+
+    <!-- jQuery Bootstrap script initialize     -->
+
+    <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <!-- jQuery Bootstrap script initialize     -->
+    <!-- Slick -->
+
+    <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+    <!-- Owl carousel -->
+    <!-- less initialize -->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+    <!-- less initialize -->
+
+    <!-- Custom js initialize -->
+
+    <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+    <!-- Custom js initialize -->
+    <script>
+        $(function () {
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        });
+    </script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header_contain">
+
+
+            <nav class="navbar navbar-expand-lg yap_navbar">
+                <!-- Brand/logo -->
+
+                <a class="navbar-brand" href="/uae">
+                    <img src="/assets/images/logo.svg" alt="YAP_logo" />
+                </a>
+
+                <button class="navbar-toggler" id="nav-toggle" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Links -->
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link navactive" href="/uae">Home</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="flows" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="container drop_nopad">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="top_dropdown">
+                                                <span class="yap_tagline">Payments</span>
+                                                <ul class="mob_drop">
+                                                    <li><a href="/payment-cards">Cards</a></li>
+                                                    <li><a href="/payment-wallet">Wallet</a></li>
+                                                    <li><a href="/payment-just-in-time">Just-in-Time</a></li>
+                                                    <li><a href="/payment-cross-border">Cross Border Payments</a></li>
+                                                    <li><a href="/payment-fleet">Fleet</a></li>
+                                                    <li><a href="/payment-program-management/">Program Management</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="top_dropdown">
+                                                <span class="yap_tagline">Lending</span>
+                                                <ul class="mob_drop">
+                                                    <li><a href="lending-consumer">Consumer</a></li>
+                                                    <li><a href="lending-corporate">Corporate</a></li>
+                                                    <li><a href="lending-sme">SME</a></li>
+                                                    <!-- <li><a href="lending-creditcard">Credit Card</a></li> -->
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="top_dropdown">
+                                                <span class="yap_tagline">Banking</span>
+                                                <ul class="mob_drop">
+                                                    <li><a href="/banking-account">Accounts</a></li>
+                                                    <li><a href="/banking-deposit">Deposits</a></li>
+
+                                                    <li>
+                                                        <a href="/banking-investment">Investments</a>
+                                                    </li>
+                                                    <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/data-center">Data Center</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                        <a class="nav-link" href="/springbo">SpringBo</a>
+                      </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Developers</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contactus">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/news">News</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto support_nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API
+                                Keys</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home_banner init_section home_responsive">
+        <div class="banner_container homepage_margin home_no_padd_btm">
+            <div class="inner_section container">
+                <span class="banner_tag_line">The API standard for banking and payments</span>
+
+                <h1 class="home_banner_title">
+                    <span class="text_bg">We make<br /> money flow </span><br />
+                    <span class="vet_slide_cont verticalFlip">
+                        <!--                        <span class="verti_slide">simpler<br />safer<br />faster</span>-->
+                        <span> </span>
+                        <span>simpler</span>
+                        <span>safer</span>
+                        <span>faster</span>
+                    </span>
+
+                </h1>
+
+                <div class="grp_btn">
+                    <a href="https://docs.yappay.in" target="_blank" class="butn butn-light">View API Docs</a>
+
+                    <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+                </div>
+
+                <div class="swipe_down">
+                    <img src="/assets/images/swip_arrow.svg" />
+
+                    <span>Swipe up</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__products homepage_margin" style="padding-top: 40px !important;">
+        <div class="inner_section container" style="padding-top: 0;">
+            <div class="row">
+                <div class="col-md-6 order-xs-1">
+                    <div class="marg_54">
+                        <span class="yap_tagline">Flows</span>
+
+                        <h2 class="yap_title">Top-notch Payments
+                            <br />Stack</h2>
+                        <p class="index_para">
+                            With our cutting-edge technology, we empower every business to be a Fintech and co-create
+                            market-defining products.
+                        </p>
+
+                        <div class="list-todo">
+                            <h4>Find out what you can build on top of our dynamic, agile
+                                and flexible platform -</h4>
+                            <ul>
+                                <li>Launch personalized payment products</li>
+                                <li>Access digital credit through elegant APIs</li>
+                                <li>Unlock Digital-only banks or Neo-banking</li>
+                                <li>Offer financial products from a suite of banks</li>
+                                <li>Discover modern card issuance and transaction process</li>
+                                <li>Explore dynamic spend control, JIT funding, and virtual cards</li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="butn butn-dark hidden">Explore</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 order-xs-0">
+                    <img class="img-fluid" src="/assets/images/camera.svg" alt="YAP_Payments" />
+                </div>
+            </div>
+
+            <div class="icon_list">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-sm-6">
+                        <div class="icon_box">
+                            <div class="icon">
+                                <img src="/assets/images/Home/Payments.svg" alt="Payments" />
+                            </div>
+
+                            <div class="icon_content">
+                                <h3>Payments</h3>
+
+                                <p>
+                                    Built as a stack of microservices,
+                                    our modular payment architecture allows you to customize and make integrations
+                                    precisely.
+                                </p>
+                            </div>
+
+                            <div class="icon_btn">
+                                <a href="/solutions" class="butn butn-light">Explore Flows</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-sm-6">
+                        <div class="icon_box">
+                            <div class="icon">
+                                <img src="/assets/images/Home/Lend.svg" alt="Lending" />
+                            </div>
+
+                            <div class="icon_content">
+                                <h3>Lending</h3>
+
+                                <p>
+                                    Integrate with our digital-first platform, deliver competitive loan offerings, and
+                                    expand your customer base
+                                    intelligently.
+                                </p>
+                            </div>
+
+                            <div class="icon_btn">
+                                <a href="/solutions" class="butn butn-light">Explore Flows</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-sm-6">
+                        <div class="icon_box">
+                            <div class="icon">
+                                <img src="/assets/images/Home/Banking.svg" alt="Banking" />
+                            </div>
+
+                            <div class="icon_content">
+                                <h3>Banking</h3>
+
+                                <p>
+                                    Start building bank-in-a-box solutions to make the overall Neo-banking journey
+                                    flexible, friendly, and frictionless.
+                                </p>
+                            </div>
+
+                            <div class="icon_btn">
+                                <a href="/solutions" class="butn butn-light">Explore Flows</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_api home_api_responsive">
+        <div class="inner_section container">
+            <span class="bluecircle d-none d-sm-block"></span>
+
+            <div class="row">
+                <div class="col-md-6 order-xs-1 mar-top-building">
+                    <span class="yap_tagline">M2P api docs </span>
+
+                    <h2 class="yap_title">Start building your Fintech product</h2>
+
+                    <p>
+                        Look at our API docs to jump-start your new payment, banking, or investment product journey.
+                        Experience seamless money
+                        flow - instantly!
+                    </p>
+
+                    <div class="grp_btn">
+                        <a href="https://docs.yappay.in/" target="_blank" class="butn butn-light">View API Docs</a>
+
+                        <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 order-xs-0 mb-xs-40">
+                    <img class="img-fluid" src="/assets/images/API Docs.svg" alt="API_Docs" />
+                </div>
+            </div>
+
+            <div class="mt-xs-5 developer_first">
+                <div class="no_span">
+                    <span class="yap_tagline">Developer’s Corner</span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="plain_icon_col">
+                            <div class="d-flex d-sm-block px-xs-15">
+                                <div class="plain_icon_box">
+                                    <img src="/assets/images/read.svg" alt="View_API_Docs" />
+                                </div>
+
+                                <div class="plain_icon_title d-inline-flex d-sm-block align-items-center">
+                                    <h4>Read</h4>
+                                </div>
+                            </div>
+
+                            <div class="plain_icon_content">
+                                <p>
+                                    Browse through detailed documentation of all flows and streams. Finding it tough?
+                                    Checkout sample libraries to get going
+                                </p>
+
+                                <a href="https://docs.yappay.in/" target="_blank">View API Docs </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-4">
+                        <div class="plain_icon_col pad_min">
+                            <div class="d-flex d-sm-block px-xs-15">
+                                <div class="plain_icon_box">
+                                    <img src="/assets/images/formulate.svg" alt="View_API_Libraries" />
+                                </div>
+
+                                <div class="plain_icon_title d-inline-flex d-sm-block align-items-center">
+                                    <h4>Formulate</h4>
+                                </div>
+                            </div>
+
+                            <div class="plain_icon_content">
+                                <p>
+                                    Use our online sandbox to experience the APIs right (a)way. If you are the “Postman”
+                                    tribe, download API collections in
+                                    a click.
+                                </p>
+
+                                <a href="https://docs.yappay.in/singledocs#libraries" target="_blank">View API
+                                    Libraries</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-4">
+                        <div class="plain_icon_col">
+                            <div class="d-flex d-sm-block px-xs-15">
+                                <div class="plain_icon_box">
+                                    <img src="/assets/images/design.svg" />
+                                </div>
+
+<!--                                <div class="plain_icon_title d-inline-flex d-sm-block align-items-center" />-->
+                                <h4>Design</h4>
+                            </div>
+                        </div>
+
+                        <div class="plain_icon_content">
+                            <p>
+                                Develop, test, iterate and take off! All it
+                                takes is submitting a simple form with all your relevant details
+                            </p>
+
+                            <a href="https://docs.yappay.in/signup" target="_blank">Build your product</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section__about mr_btm">
+        <div class="inner_section container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="yap_tagline">ABout M2P</span>
+
+                    <h2 class="yap_title">Hello world!</h2>
+
+                    <div class="substory">
+
+                        <p class="subpara">
+                            Every entrepreneur looks at a problem very differently from the
+                            world view, so did our founders. We challenged the status-quo of
+                            how Fintechs work with regulated financial services providers.
+                        </p>
+
+                        <p class="subpara">
+                            Out to help every company become a Fintech.
+                        </p>
+                    </div>
+
+                    <a href="aboutus" class="butn butn-dark">Meet Team M2P</a>
+                </div>
+
+                <div class="col-md-6 my-xs-30">
+                    <img class="img-fluid" src="/assets/images/about.svg" alt="About_Yap" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__career d-flex align-items-center">
+        <div class="inner_section container p-0">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/assets/images/team_yap.svg" class="img-fluid" alt="Yap_Team">
+                </div>
+
+                <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+                    <div class="career_content">
+                        <span class="yap_tagline">join our team</span>
+
+                        <h3 class="yap_title see_openings mb-10">
+                            Change the world one API at a time
+                        </h3>
+                        <!-- 
+                        <p class="para16">
+                            Come join us if you are crazy about making a difference
+                        </p> -->
+
+                        <a href="/careers" class="butn butn-white-trans" style="margin-top: 20px;">See Openings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section__6 testimonial">
+        <div class="testimonial_container">
+            <div class="testimonial_content">
+                <span class="tagline">see what our investorS say...</span>
+
+                <div class="testimonial_slider">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="testimonial_title">We believe YAP will become the most sought after Payments
+                                    Technology company in Asia</h4>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="author_content">
+                                    <p>
+                                        We have been following the Indian Startup space very closely over the last
+                                        decade and our key investments like Citrus
+                                        Payments, Droom, Faasos, Servify have gone on to become one of the largest
+                                        players in their space. We believe YAP will
+                                        continue that legacy and become the most sought after Payments Technology
+                                        company in Asia.
+                                    </p>
+                                </div>
+
+                                <div class="author">
+                                    <p>Dirk Van Quaquebeke,
+                                        <br /><span>Managing Partner at Beenext Asia</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="testimonial_title">Agile</h4>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="author_content">
+                                    <p>
+                                        When we were looking out for payment infrastructure
+                                        companies, we evaluated few partners in India. YAP was the
+                                        only one where we saw that the team was trying to build
+                                        the whole technology stack inhouse. Everyone at YAP is
+                                        approachable and agile. It has been a great experience
+                                        working with YAP.
+                                    </p>
+                                </div>
+
+                                <div class="author">
+                                    <p>Rajan Bajaj <br />Founder & CEO, Slice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="testimonial_title">Easy</h4>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="author_content">
+                                    <p>
+                                        Before we chose YAP, we had evaluated quite a few options
+                                        in the market. We found YAP to be most easy platform to
+                                        connect. We wanted someone who can understand the start-up
+                                        ecosystem and work at the same pace or even faster. So,
+                                        partnering with YAP was a no-brainer as they understood
+                                        our pace.
+                                    </p>
+                                </div>
+
+                                <div class="author">
+                                    <p>Pei-Fu Hsieh <br />CEO & Co-Founder, KARBON Card</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="testimonial_title">Experienced</h4>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="author_content">
+                                    <p>
+                                        YAP provided the right solution, and their product is
+                                        industry-first. It was a fantastic experience working with
+                                        the YAP team. They had deep domain experience and offered
+                                        the high customization we wanted.
+                                    </p>
+                                </div>
+
+                                <div class="author">
+                                    <p>Srikirshna <br />CEO, Wall Street Forex</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider_ctrl xs-hidden">
+                    <span class="pagingInfo"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__investor homepage_margin home_news">
+        <div class="inner_section container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="yap_tagline">Featured</span>
+
+                    <h2 class="yap_title">In the news</h2>
+                </div>
+                <div class="col-md-6 xs-hidden">
+                    <div class="news_number">
+                        <div class="slider_ctrl xs-hidden">
+                            <span class="pagingInfo"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="investor_wrap">
+                <div class="row inv_desktop d-block">
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a href="https://www.crazyaboutstartups.com/fintech-startup-yap-raises-4-5-million-led-by-beenext/?utm_source=rss&utm_medium=rss&utm_campaign=fintech-startup-yap-raises-4-5-million-led-by-beenext&doing_wp_cron=1596115475.9790410995483398437500"
+                            target="_blank">
+                            <div class="investor_logos bg_blk">
+                                <img src="/assets/images/investors/crazy_startup.svg" class="img-responsive"
+                                    alt="In_the_News1" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a target="_blank"
+                            href="https://yourstory.com/2020/06/fintech-startups-raised-fund-amid-coronavirus">
+                            <div class="investor_logos bg_white">
+                                <img src="/assets/images/investors/yourstory.svg" class="img-responsive"
+                                    alt="In_the_News2" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a href="https://inc42.com/buzz/beenext-leads-4-5-mn-series-a-funding-round-in-yap/"
+                            target="_blank">
+                            <div class="investor_logos bg_blk">
+                                <img src="/assets/images/investors/inc42.svg" class="img-responsive inc_img"
+                                    alt="In_the_News4" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a target="_blank"
+                            href="https://www.livemint.com/companies/start-ups/fintech-platform-yap-raises-4-5-million-in-series-a-funding-11587477292208.html">
+                            <div class="investor_logos bg_white">
+                                <img src="/assets/images/investors/livemint.svg" class="img-responsive"
+                                    alt="In_the_News5" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/yap-mops-up-rs-10-crore-in-angel-funding/articleshow/74128304.cms"
+                            target="_blank">
+                            <div class="investor_logos bg_white">
+                                <img src="/assets/images/investors/eco.png" class="img-responsive" alt="In_the_News6" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+                        <a href="https://businessindia.co/magazine/connecting-businesses" target="_blank">
+                            <div class="investor_logos bg_red">
+                                <img src="/assets/images/investors/business.png" class="img-responsive"
+                                    alt="In_the_News3" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    <section class="flow_contact_sales">
+        <div class="spring_inner_section container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="contact_sales_desc">
+                        <div class="content">
+                            <span class="tagline">contact us</span>
+
+                            <h4>We're right here! <br>Come say hello</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="">Full name<span>*</span></label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email<span>*</span></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Company<span>*</span></label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Company name">
+                    </div>
+                    <a href="#" class="butn butn-dark">Submit</a>
+
+                    <p>
+                        By submitting this form, I confirm that i have read and understood
+                        YAP's <span class="pri">Privacy Statement</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section class="footer_section">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-12 no_pad bg_black">
+                    <div class="container">
+                        <div class="footer_col">
+                            <h5 class="footer_title">Chennai, INDIA</h5>
+                            <ul>
+                                <li><a href="javascript:;">M2P Solutions Pvt Ltd,<br>
+                                        3rd Floor, MM Complex<br>30/10, Hopman Street 2nd Street,<br>Alandur, Chennai -
+                                        600016.<br>TamilNadu. India
+                                    </a></li>
+                                <li><a class="map" href="https://goo.gl/maps/ctRbRskENwBxi6Ft6" target="_blank">Find
+                                        Us</a> </li>
+                            </ul>
+                            <h5 class="footer_title">Call Us : <a href="javascript:;" class="prl">+91-44-40554800</a>
+                            </h5>
+
+                            <h5 class="footer_title">Mail Us : <a href="mailto:ping@yappay.in"
+                                    class="prl">ping@yappay.in</a></h5>
+
+                        </div>
+                        <div class="footer_col">
+                            <h5 class="footer_title">Mumbai, INDIA</h5>
+                            <ul>
+                                <li><a href="javascript:;">M2P Solutions Pvt Ltd,<br>
+                                        91Springboard, 1st Floor, Kagalwala House,<br />Plot No. 175, CST Road,<br />
+                                        Behind
+                                        Mercedes
+                                        Benz showroom,<br />Kalina, MUMBAI - 400 098.
+                                    </a></li>
+                                <li><a class="map" href="https://g.page/91springboardBKC?share" target="_blank">Find
+                                        Us</a> </li>
+                            </ul>
+                        </div>
+                        <div class="footer_col">
+                            <h5 class="footer_title">Abu Dhabi, UAE</h5>
+                            <ul>
+                                <li><a href="javascript:;">M2P Solutions Pvt Ltd,<br>
+                                        Office No.2452, 24 - Al Sila Tower,<br />Abu
+                                        Dhabi Global Market Square,<br />Al Maryah Island<br>Abu
+                                        Dhabi,<br> United Arab Emirates.
+                                    </a></li>
+                                <li><a class="map" href="https://goo.gl/maps/ewJRVRGeMwTypzJF7" target="_blank">Find
+                                        Us</a> </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--            <div class="col-md-7 no_pad">-->
+                <!--                <div class="map">-->
+                <!--                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.628527788325!2d80.193647!3d12.9955949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52675165d7dd51%3A0x1ad005dd1112f76b!2sM2P%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1597165822507!5m2!1sen!2sin" width="100%" height="455" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+                <!--                </div>-->
+                <!--            </div>-->
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <div id="footer"></div>
+    <div id="stop" class="scrollTop">
+        <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="Swipe_up" /></a></span>
+    </div>
+</body>
+
+</html>

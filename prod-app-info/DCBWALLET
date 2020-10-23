@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 1,
+                "appName":  "DCBWALLET",
+                "minimumRequiredVersion": 154,
+                "currentVersion": 154,
+                "dbVersion": "12",
+                "mandatoryUpdateText":"We had something very important to fix and we have done it. Please update now to continue experiencing Cippy",
+                "optionalUpdateText": "A new version of Cippy is available",
+                "id":1,
+                "linkCardFee":100
+        }
+}

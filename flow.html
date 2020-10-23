@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Open API platform for cutting-edge Payments, Lending, and Banking solutions. Build market-defining fintech products on top of YAP's Restful API infrastructure." />
+  <meta name="keywords"
+    content="YAP flows, yap products, yap payment services provider, yap payments services, yap lending, yap banking, yap fintech products" />
+  <title>Flow - YAP</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header class="flow_black">
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.svg" alt="logo" class="flow_black_logo" />
+          <img src="/assets/images/YAP_Logo_Whittext.svg" alt="logo" class="flow_nav" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-toggler-icon-white"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section flow_banner">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-6">
+          <span class="yap_tagline">Flow\ what for\ flow 1</span>
+          <h2 class="yap_title">Nice and crisp headline for case</h2>
+          <p>
+            More dummy content with not more than 3-5 lines or 36 words or 240
+            characters. You’re right, its just like a LSMS or C.Tweet.
+          </p>
+
+          <div class="grp_btn">
+            <a href="product-list.html" class="butn butn-light">Try out</a>
+
+            <a href="#" class="butn butn-dark">View Openings</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/flow/flow_banner.svg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__products secound_flow_section">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-3">
+          <span class="yap_tagline">Products</span>
+
+          <h4 class="yap_title flow_product_name">
+            About problem in two lines
+          </h4>
+        </div>
+
+        <div class="col-md-5">
+          <p>
+            More dummy content with not more than 3-5 lines or 36 words or 240
+            characters. You’re right, its just like a LSMS or C.Tweet.
+          </p>
+          <p>
+            More dummy content with not more than 3-5 lines or 36 words or 240
+            characters. You’re right, its just like a LSMS or C.Tweet.
+          </p>
+        </div>
+      </div>
+      <div class="icon_list">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="yap_tagline">Products</span>
+
+            <h4 class="yap_title flow_product_name">
+              About problem in two lines
+            </h4>
+          </div>
+
+          <div class="col-md-5">
+            <p>
+              More dummy content with not more than 3-5 lines or 36 words or
+              240 characters. You’re right, its just like a LSMS or C.Tweet.
+            </p>
+            <p>
+              More dummy content with not more than 3-5 lines or 36 words or
+              240 characters. You’re right, its just like a LSMS or C.Tweet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="icon_list">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="yap_tagline">Products</span>
+
+            <h4 class="yap_title flow_product_name">
+              About problem in two lines
+            </h4>
+          </div>
+
+          <div class="col-md-3">
+            <div class="inner_flow_content">
+              <span class="tagline">No. of transactions </span>
+              <p class="no_bottom"><span>1.8</span> Million</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner_flow_content">
+              <span class="tagline">No. of transactions </span>
+              <p class="no_bottom"><span>1.8</span> Million</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__6 testimonial padding_90">
+    <div class="testimonial_container">
+      <div class="testimonial_content">
+        <span class="tagline">what they say?</span>
+
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+
+        <div class="testimonial_slider">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="testimonial_title">
+                  Quoted text of testimonial in two lines
+                </h4>
+              </div>
+
+              <div class="col-md-6">
+                <div class="author_content">
+                  <p>
+                    More dummy content with not more than 3-5 lines or 36
+                    words or 240 characters. You’re right, its just like a
+                    LSMS or C.Tweet.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>Name of the person, Designation</p>
+                  <a href="#">Read Case</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="testimonial_title">
+                  Quoted text of testimonial in three lines
+                </h4>
+              </div>
+
+              <div class="col-md-6">
+                <div class="author_content">
+                  <p>
+                    More dummy content with not more than 3-5 lines or 36
+                    words or 240 characters. You’re right, its just like a
+                    LSMS or C.Tweet.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>Name of the person, Designation</p>
+                  <a href="#">Read Case</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__flows flows_feature">
+    <div class="inner_section container">
+      <div class="">
+        <div class="col-md-12">
+          <span class="yap_tagline">we support developers</span>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/savemoney.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Feature Headline</h4>
+
+                <p class="no_wi">
+                  More dummy content with not more than three lines or 28
+                  words or 160 characters. You’re right, its just like a SMS
+                  or Tweet.
+                </p>
+
+                <a href="#">See how this works</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/plant.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Feature Headline</h4>
+
+                <p class="no_wi">
+                  More dummy content with not more than three lines or 28
+                  words or 160 characters. You’re right, its just like a SMS
+                  or Tweet.
+                </p>
+
+                <a href="#">See how this works</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/discount.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Feature Headline</h4>
+
+                <p class="no_wi">
+                  More dummy content with not more than three lines or 28
+                  words or 160 characters. You’re right, its just like a SMS
+                  or Tweet.
+                </p>
+
+                <a href="#">See how this works</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__career d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left career_res_left">
+          <div class="career_content">
+            <span class="yap_tagline">development kit</span>
+
+            <h3 class="yap_title carrer-heading">
+              A two line healine for Banner
+            </h3>
+
+            <p class="para16">
+              Come join us if you are crazy about making a difference
+            </p>
+
+            <a href="javascript:;" class="butn butn-white-trans">Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_api flow_mobile_section">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-5">
+          <span class="yap_tagline">How its works </span>
+
+          <h4 class="yap_title">About solution in two lines</h4>
+          <p>
+            More dummy content with not more than three lines or 28 words or
+            160 characters. You’re right, its just like a SMS or Tweet.
+          </p>
+
+          <p>
+            More dummy content with not more than three lines or 28 words or
+            160 characters. You’re right, its just like a SMS or Tweet.
+          </p>
+          <div class="actional_items">
+            <ul>
+              <li>
+                <a href="">Actionable item 1
+                  <span class="side_arrow"><img src="/assets/images/flow/side_arrow.svg" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="">Actionable item 1
+                  <span class="side_arrow"><img src="/assets/images/flow/side_arrow.svg" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="">Actionable item 1
+                  <span class="side_arrow"><img src="/assets/images/flow/side_arrow.svg" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="">Actionable item 1
+                  <span class="side_arrow"><img src="/assets/images/flow/side_arrow.svg" alt="" /></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="activity_items">
+            <div class="yap_col_content">
+              <h4>Activity item 1</h4>
+
+              <p class="no_wi">
+                More dummy content with not more than three lines or 28 words
+                or 160 characters. You’re right, its just like a SMS or Tweet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="mobile_section_contents">
+            <div class="inner_mobile_section_desc">
+              <div class="inner_mobile_logos">
+                <img src="/assets/images/flow/left_flow.svg" alt="" />
+                <img src="/assets/images/flow/right_flow.svg" alt="" />
+              </div>
+              <div class="inner_mobile_mar_top">
+                <h1>One Application for all kinds of transactions.</h1>
+                <a href="#" class="butn butn-dark">Sign up now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mar_btm">
+        <div class="col-md-4">
+          <div class="yap_col_content">
+            <h4>Activity item 1</h4>
+
+            <p class="no_padd_right no_wi">
+              More dummy content with not more than three lines or 28 words or
+              160 characters. You’re right, its just like a SMS or Tweet.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="yap_col_content">
+            <h4>Activity item 1</h4>
+
+            <p class="no_padd_right no_wi">
+              More dummy content with not more than three lines or 28 words or
+              160 characters. You’re right, its just like a SMS or Tweet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flow_contact_sales">
+    <div class="spring_inner_section container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="contact_sales_desc">
+            <div class="content">
+              <span class="tagline">contact sales</span>
+
+              <h4>A two line <br />headline for section</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Full name" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="email" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Company name" />
+          </div>
+          <a href="#" class="butn butn-dark">Contact Sale</a>
+
+          <p>
+            By submitting this form, I confirm that i have read and understood
+            YAP's <span class="pri">Privacy Statement</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="" /></a></span>
+  </div>
+</body>
+
+</html>

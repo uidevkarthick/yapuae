@@ -1,0 +1,15 @@
+{
+        "result": {
+                "version": 1,
+                "appName": "AB BHARATQR MERCHANT",
+                "minimumRequiredVersion": 100,
+                "currentVersion": 100,
+                "dbVersion": "4",
+                "updateText": "A new version of AB BharatQR Merchant is available",
+                "mandatoryUpdateText":"A new version of AB BHARATQR MERCHANT is available. Kindly update the app to continue",
+                "optionalUpdateText": "A new version of AB BHARATQR MERCHANT is available. You may choose to update now, or later",
+                "id": 1
+
+        }
+}
+

@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 1,
+                "appName":  "DCBWALLETIOS",
+                "minimumRequiredVersion": 132,
+                "currentVersion": 132,
+                "dbVersion": "1",
+                "mandatoryUpdateText":"You must update DCB Wallet to continue using",
+                "optionalUpdateText": "A new version of DCB Wallet is available",
+                "id":1,
+                "linkCardFee":100
+        }
+}

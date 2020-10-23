@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Lend">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Lend" clip-path="url(#clip-Lend)">
+    <g id="Lend-2" data-name="Lend" transform="translate(-1.773 -3.396)">
+      <path id="Path_891" data-name="Path 891" d="M5.273,9.5H3.5V23.688H5.273a1.779,1.779,0,0,0,1.774-1.774V11.274A1.779,1.779,0,0,0,5.273,9.5Z" transform="translate(0)" fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_892" data-name="Path 892" d="M21.411,19.414A5.769,5.769,0,1,1,21,22.757" transform="translate(-1.982 -0.736)" fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_893" data-name="Path 893" d="M28.92,23.636a2.217,2.217,0,1,0-3.406,0A2.217,2.217,0,0,0,28.92,23.636Z" transform="translate(-2.435 -1.189)" fill="none" stroke="#151515" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_894" data-name="Path 894" d="M20.8,18.107c-.435-.1-.435-.319-.763-.647A4.649,4.649,0,0,0,16.7,16.05a1.756,1.756,0,0,0-1.215.39c-.887.887-.887,2.66,1.774,2.66,4.434,0,5.321,1.774,5.321,1.774s.887,1.774-1.774,1.774H17.254s-4.434.887-6.207,0S8.387,20.874,7.5,20.874" transform="translate(-0.453 -0.742)" fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_895" data-name="Path 895" d="M7.5,13.345l5.09-.922c3.574-.647,7.617-.328,10.278,2.146a4.342,4.342,0,0,1,1.038,1.437" transform="translate(-0.453 -0.298)" fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

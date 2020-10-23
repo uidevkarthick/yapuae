@@ -1,0 +1,12 @@
+{
+	"result": {
+		"version": 224,
+		"appName": "YAPCUSTOMER",
+		"minimumRequiredVersion": 224,
+		"currentVersion": 224,
+		"dbVersion": "1",
+		"mandatoryUpdateText": "A new version of YAP is available. Kindly update the app to continue",
+		"optionalUpdateText": "A new version of YAP is available. You may choose to update now, or later",		
+		"id": 1
+	}
+}

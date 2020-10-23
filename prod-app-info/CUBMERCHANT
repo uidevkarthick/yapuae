@@ -1,0 +1,15 @@
+
+{
+        "result": {
+                "version":1,
+                "appName": "CUBMERCHANT",
+                "minimumRequiredVersion": 103,
+                "currentVersion": 103,
+                "dbVersion": "1",
+                "mandatoryUpdateText":"You must update CUB MERCHANT APP to continue using",
+                "optionalUpdateText": "A new version of CUB MERCHANT APP is available",
+                "id":1,
+                "linkCardFee":100
+        }
+}
+

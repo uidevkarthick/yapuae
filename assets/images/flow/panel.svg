@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="720" viewBox="0 0 400 720">
+  <defs>
+    <clipPath id="clip-panel">
+      <rect width="400" height="720"/>
+    </clipPath>
+  </defs>
+  <g id="panel" clip-path="url(#clip-panel)">
+    <g id="Rectangle_184" data-name="Rectangle 184" fill="none" stroke="#151515" stroke-width="8">
+      <rect width="400" height="720" rx="36" stroke="none"/>
+      <rect x="4" y="4" width="392" height="712" rx="32" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="”description”"
+    content="A team player willing to go that extra mile to get things done with a hunger for innovation.View our current openings to choose your role. " />
+  <meta name="keywords"
+    content=" API platform, API integration platform, YAP API platform, Plug-n-play API platform, Full Stack API platform, fintech platform, Payments as a service platform, YAP fintech API" />
+  <title>YAP - Careers - Discover exciting opportunites</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <script>
+    $(document).ready(function () {
+      $('a[href^="#apply"]').on("click", function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $target.offset().top - 110,
+            },
+            900,
+            "swing",
+            function () {
+              // window.location.hash = target;
+            }
+          );
+      });
+    });
+  </script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/uae">
+          <img src="/assets/images/logo.svg" alt="Yap_Logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link navactive" href="/careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section career_section">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-6">
+          <span class="yap_tagline">openings</span>
+
+          <h1 class="yap_title designation">Software Engineer</h1>
+          <span class="location_job">Chennai, India</span>
+          <p></p>
+          <div class="grp_btn career_btn_left">
+            <a href="#apply" class="butn butn-dark">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="job_description">
+    <!--    <ul class="next_prev_jobs job_desc_mobile">
+      <li><span>1/3</span></li>
+      <li>
+        <span class="left_bg"><img src="/assets/images/single-product/job_arrow.svg" alt="" /></span>
+
+        <span class="job_title">prev. job</span>
+      </li>
+      <li>|</li>
+      <li>
+        <span class="job_title">next job</span><span class="right_bg"><img
+            src="/assets/images/single-product/job_right.svg" alt="" /></span>
+      </li>
+    </ul>
+-->
+    <div class="jobs_inner_section mobile_description">
+      <div class="container" style="display: flex; justify-content: space-between">
+        <ul class="nav nav-pills job_tabs" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-links active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+              aria-controls="pills-home" aria-selected="true">Role overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#apply" role="tab" aria-controls="pills-profile" aria-selected="false">Job
+              Application</a>
+          </li>
+        </ul>
+        <!--        <ul class="next_prev_jobs job_desc_desk">
+          <li><span>1/3</span></li>
+          <li>
+            <span class="left_bg"><img src="/assets/images/single-product/job_arrow.svg" alt="" /></span>
+
+            <span class="job_title">prev. job</span>
+          </li>
+          <li>|</li>
+          <li>
+            <span class="job_title">next job</span><span class="right_bg"><img
+                src="/assets/images/single-product/job_right.svg" alt="" /></span>
+          </li>
+        </ul>-->
+      </div>
+    </div>
+  </section>
+
+  <section class="career_desc">
+    <div class="spring_inner_section no_padd container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="inner_career_content">
+            <h4>About the team</h4>
+            <p>
+              YAP is the largest API platform for Banking & Payments in Asia
+              with over 200 fintech engagements in India and SEA. We clock
+              over US$2 Billion in annual payments volume, process millions of
+              transactions every month.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="marg_90">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="inner_career_content">
+              <h4>About the Role</h4>
+              <ul class="career_list">
+                <li>
+                  Be the genius behind the products, right from its ideation
+                  to implementation
+                </li>
+                <li>
+                  Sharp logical and computational skills with good programming
+                  experience
+                </li>
+                <li>Research and analytical skills are your second nature</li>
+                <li>And the usual requisites of languages and coding</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marg_90">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="inner_career_content">
+              <h4>We'd love it if you have...</h4>
+              <ul class="career_list">
+                <li>
+                  <b>4+ years of experience designing and building
+                    applications.</b>
+                </li>
+                <li>
+                  Experience with object-oriented software development
+                  methodologies.
+                </li>
+                <li>
+                  Experience using Java, J2EE, Spring, Spring Boot, Hibernate,
+                  Queues, MVC, SQLs, REST/API
+                </li>
+                <li>
+                  Experience in App security, Jenkins, NoSql, MongoDB,
+                  AngularJS, MobileApp
+                </li>
+                <li>
+                  Experience in developing high volume, concurrent, parallel
+                  asynchronous systems
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marg_90">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="inner_career_content">
+              <h4>Benefits</h4>
+              <ul class="career_list">
+                <li>
+                  Equity options in one of the fastest growing startups in the
+                  world
+                </li>
+                <li>Participate in Hackathons and exhibit your skills</li>
+                <li>Opportunities to attend trainings and tech events</li>
+                <li>Interact with industry experts</li>
+                <li>Fun and quirky celebrations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="job_description no_after">
+        <ul class="next_prev_jobs job_desc_mobile">
+          <li><span>1/3</span></li>
+          <li>
+            <span class="left_bg"><img src="/assets/images/single-product/job_arrow.svg" alt="" /></span>
+
+            <span class="job_title">prev. job</span>
+          </li>
+          <li>|</li>
+          <li>
+            <span class="job_title">next job</span><span class="right_bg"><img
+                src="/assets/images/single-product/job_right.svg" alt="job_right" /></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="marg_90" id="apply">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="inner_career_content">
+              <div class="job_application">
+                <span class="tagline">job application</span>
+                <h4>Apply to this role</h4>
+              </div>
+
+              <span class="tagline">Inbox your profile to
+                <a href="mailto:careers@yappay.in">careers@yappay.in</a></span>
+              <!--              <div class="jobs_form">
+                <div class="flex">
+                  <span class="tagline">personal details</span>
+                  <a href="#" class="butn butn-dark">Sign with LinkedIn</a>
+                </div>
+                <div class="form-group">
+                  <label for="">Full name<span>*</span></label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Full name" />
+                </div>
+                <div class="form-group">
+                  <label for="">Email<span>*</span></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email id" />
+                </div>
+                <div class="form-group">
+                  <label for="">Phone number<span>*</span></label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Phone number" />
+                </div>
+                <div class="form-group">
+                  <label for="">Current company - Optional</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Company" />
+                </div>
+                <div class="form-group">
+                  <label for="">Upload resume<span>*</span></label>
+                  <div class="input_pos">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Attach resume" />
+                    <a href="">Attach, Paste</a>
+                  </div>
+                  <p class="pdf_txt">
+                    .pdf, .doc, .docx, .rtf, .html, .odf, .zip files accepted
+                  </p>
+                </div>
+                <a href="#" class="butn w-100 butn-dark">Apply now</a>
+              </div>
+-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  <section class="our_subscribe career_subscribe">
+    <div class="inner_section container">
+      <div class="asd">
+        <div class="row d-flex justify-content-center">
+          <div class="subscribe_img">
+            <img src="/assets/images/blog/round.svg" alt="" />
+          </div>
+          <img class="mailbox" src="/assets/images/blog/mailbox.svg" alt="" />
+          <div class="col-md-12">
+            <div class="inner_subscribe">
+              <span>Refer a friend</span>
+              <h2 class="subscribe_title">
+                Perfect for a friend? Email this job
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Your name<span class="star">*</span></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Your name" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Recipient’s email address<span class="star">*</span></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Email id" />
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group no_margin_top">
+              <label for="" class="invisible">label</label>
+              <a class="butn butn-white-trans">Send</a>
+            </div>
+          </div>
+          <img class="right_mailbox" src="/assets/images/blog/right_mailbox.svg" alt="" />
+          <img class="right_round" src="/assets/images/blog/right_round.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__flows flows_feature">
+    <div class="inner_section pad_90 container">
+      <div class="">
+        <div class="full_span">
+          <span class="yap_tagline">Life at Yap</span>
+        </div>
+        <div class="row current_open">
+          <div class="col-md-4">
+            <div class="plain_icon_col marg_24">
+              <div class="plain_icon_content">
+                <h4>Here work is fun</h4>
+
+                <p class="flo">
+                  We are comrades at work constantly pushing each other to be
+                  at our best. Our bond is what makes us a family rather than
+                  a team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col pad_30">
+              <div class="plain_icon_box">
+                <img src="/assets/images/Careers/Learn.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Learning & development</h4>
+
+                <p class="no_wi">
+                  At YAP you not only work, but also develop your skills for
+                  life and career
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col pad_30">
+              <div class="plain_icon_box">
+                <img src="/assets/images/Careers/Value.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>We value our people</h4>
+
+                <p class="no_wi">
+                  Our employee's well-being is our topmost concern. We
+                  encourage them to find their footing and realize their
+                  passion
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col pad_30">
+              <div class="plain_icon_box">
+                <img src="/assets/images/Careers/Explore.svg" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Explore</h4>
+
+                <p class="no_wi">
+                  We appreciate the initiatives you take to go beyond your
+                  role. We welcome your inputs and value them just like we
+                  value you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="Swipe_UP" /></a></span>
+  </div>
+</body>
+
+</html>

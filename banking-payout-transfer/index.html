@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Incorporating a blend of AI, machine learning, analytics to co-create new investment products for Fintechs and Neo-banks. YAP is in the center of API banking." />
+  <meta name="keywords"
+    content="investment api YAP, neobanking api yap, neobanking api investment yap, neobanking api, investment api provider yap" />
+  <title>YAP - Payouts & Transfers - Simplifying investments with APIs</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <link href="/assets/css/prism.css" rel="stylesheet" />
+  <script src="/assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/uae">
+          <img src="/assets/images/logo.svg" alt="Yap_Logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li><a href="/lending-creditcard">Credit Card</a></li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section banner_for_single_product">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6">
+          <span class="yap_tagline">banking | Payouts & Transfers</span>
+
+          <h1 class="yap_title banking-deposit">
+            All about Remittances Payouts and Transfers
+          </h1>
+
+          <p>
+            Create or retrieve individual payout and list of payouts by
+            integrating with our world-class APIs. Our technology-first M2P
+            platform is compatible with and supports both Visa Direct and
+            MasterCard Send payment transfers.
+          </p>
+
+          <div class="grp_btn">
+            <a href="#endpoint" class="butn butn-light">Try out</a>
+
+            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/single-product/Investments.png" alt="Investments" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="yap_tagline" style="margin-top: 30px">Features of Payouts</span>
+        <p class="tagline_txt">
+          Offer instant payouts or direct debits and have proprietary methods
+          for fulfilling customer transactions. The merchant’s bank account
+          successfully receives all the customer payments or funds based on a
+          fixed schedule.
+        </p>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/digital.svg" alt="Experience" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Digital channels</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/transactino.svg" alt="Grow_Revenue" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Pay-in and Payout Modes</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Real-time transactions.svg" alt="Insights" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>P2P transfer</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/low-cost.svg" alt="Insights" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Low-cost insurance claim payouts</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/cards/cards4.svg" alt="Insights" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Simplify reconciliation</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/improve.svg" alt="Insights" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Improve conversion rates</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-scnd">
+        <div class="title">
+          <span class="yap_tagline">Features of Transfers</span>
+          <p class="tagline_txt">
+            Transfer money online to accounts, cards, wallets, or cash out
+            locations instantly using MasterCard Send. Make bill payments
+            using VISA credit cards or transfer money to a VISA debit, credit,
+            or prepaid card anytime, anywhere. Both the sender and recipient
+            can be in different locations.
+          </p>
+        </div>
+        <div class="row single_products_flow">
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/disburement.svg" alt="Experience" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Disbursement</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/person-transfer.svg" alt="Grow_Revenue" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Person to person transfer</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/merchat-payment.svg" alt="Insights" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Merchant payment</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/Locate-ATMs-and-Offers.svg" alt="Insights" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Cash deposit and withdrawal</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/credit-card.svg" alt="Insights" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Credit Card Payment</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/card-reload.svg" alt="Insights" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Card Reload</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="plain_icon_col">
+              <div class="plain_icon_box">
+                <img src="/assets/images/bank.svg" alt="Insights" />
+              </div>
+
+              <div class="plain_icon_content">
+                <h4>Bank to Bank payment</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="section_doodle_animation">
+      <div class="inner_section container doodle_height">
+        <span class="yap_tagline">customers using this solution</span>
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+        <div class="doode_top">
+          <div class="row doodle_slider d-block">
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="doodle bx_ani">
+                <div class="fine_ap">
+                  <span id="box1" class="firstspan box">
+                    Doodle
+                  </span>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="fina bx_ani">
+                <div class="fine_aplle_height">
+                  <span id="box2" class="secoundspan box">
+                    <img
+                      src="/assets/images/single-product/fineapple.svg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="face bx_ani">
+                <div class="fb_rotate">
+                  <span id="box3" class="secoundspan">
+                    <img src="/assets/images/single-product/fb.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="mail bx_ani">
+                <div class="mail_height">
+                  <span id="box4" class="secoundspan">
+                    <img src="/assets/images/single-product/mail.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="stroke bx_ani">
+                <div class="stroke_pad">
+                  <span id="box5" class="secoundspan">
+                    <img src="/assets/images/single-product/stroke.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section_doodle_animation">
+    <div class="container inner_section doodle_height">
+      <div class="row flow-xs-rev">
+        <div class="col-lg-10 col-md-10">
+          <span class="yap_tagline">Contact Sales</span>
+          <h2 class="fleet">
+            Let us know how we can help. Get a free demo or walkthrough from
+            our team today.
+          </h2>
+          <a href="/contactus" class="butn butn-white-trans">Get In Touch</a>
+        </div>
+        <div class="col-lg-2 col-md-2">
+          <div class="doodle_img">
+            <img src="/assets/images/single-product/shape.svg" alt="semicircle" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__products secound_flow_section padding0">
+    <div class="inner_section container">
+      <span class="yap_tagline">Services & Benefits</span>
+      <div class="row"></div>
+
+      <div class="icon_list service-lst">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Cross border remittance payments</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Global remittance processing</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Cross Border Bill Payment</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Corporate Foreign Exchange Solutions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  <section class="section__6 testimonial padding_90">
+    <div class="testimonial_container">
+      <div class="testimonial_content">
+        <span class="tagline">what they say?</span>
+
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+
+        <div class="testimonial_slider">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="testimonial_title">Innovative</h4>
+              </div>
+
+              <div class="col-md-6">
+                <div class="author_content">
+                  <p>
+                    YAP team comes with a wealth of knowledge, considerable
+                    reach, and network in the banking and financial industry.
+                    Partnership with YAP gave us many fruitful results.
+                    Firstly, as a bank, the larger overheads we take on when
+                    we partner with Fintech’s, considerably reduced.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>Ritesh Pai <br />Yes Bank, CDO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- <section class="section__flows flows_feature we_support_sec">
+      <div class="inner_section container">
+        <div class="">
+          <div class="">
+            <span class="yap_tagline">explore other products</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/savemoney.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Accounts</h4>
+
+                  <p>
+                    Open, control and manage Savings and Current accounts in
+                    seconds with our open API Banking platform.
+                  </p>
+
+                  <a href="/banking-account" class="trycolor trycolor-out"
+                    >Explore</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/plant.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Deposits</h4>
+
+                  <p>
+                    Book and manage Recurring, Fixed and Multi Deposits in a
+                    jiffy
+                  </p>
+
+                  <a href="/banking-deposit" class="trycolor trycolor-out"
+                    >Explore</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section__flows flows_feature we_support_sec">
+    <div class="container inner_section">
+      <div class="payment_headings">
+        <span class="yap_tagline">Explore other flows</span>
+
+        <div class="big_title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>In Banking</h2>
+            </div>
+          </div>
+        </div>
+        <div class="icon_list">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Accounts.svg" alt="Accounts" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Accounts</h3>
+
+                  <p>
+                    Open, control and manage Savings and Current accounts in
+                    seconds with our open API Banking platform.
+                  </p>
+                </div>
+
+                <div class="icon_btn">
+                  <a href="/banking-account" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Deposits.svg" alt="Deposit" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Deposits</h3>
+
+                  <p>
+                    Make down payments or manage recurring, fixed, and multi
+                    deposits within seconds
+                  </p>
+                </div>
+
+                <div class="icon_btn">
+                  <a href="/banking-deposit" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Investments.svg" alt="Investments" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Investments</h3>
+
+                  <p>
+                    Purchase gold, invest in mutual funds and market-linked
+                    products all through digital channels
+                  </p>
+                </div>
+
+                <div class="icon_btn">
+                  <a href="/banking-investment" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-6 col-lg-4 col-sm-6">
+                  <div class="icon_box border_color">
+                    <div class="icon">
+                      <img src="/assets/images/Investments.svg" alt="dollar" />
+                    </div>
+  
+                    <div class="icon_content">
+                      <h3>Investments</h3>
+  
+                      <p>
+                        Purchase Gold, invest in Mutual Funds and market linked
+                        products
+                      </p>
+                    </div>
+  
+                    <div class="icon_btn">
+                      <a
+                        href="/banking-investment"
+                        class="trycolor trycolor-out"
+                        >Explore</a
+                      >
+                      <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                    </div>
+                  </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__career product-no-btm d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" alt="Yap_Team" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+          <div class="career_content">
+            <span class="yap_tagline">Payments | Program Management </span>
+
+            <h3 class="yap_title career_subscribe_text">
+              Manage E2E Card Programs
+            </h3>
+            <a href="/payment-program-management" class="butn butn-white-trans career_btn">Know More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="SwipeUp" /></a></span>
+  </div>
+</body>
+
+</html>

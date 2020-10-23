@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 1,
+                "baseUrl": "http://oynk.yappay.in:6563/Yappay",
+                "appName": "PIGGYIOS",
+                "minimumRequiredVersion": 100,
+                "currentVersion": 100,
+                "dbVersion": "1",
+                "mandatoryUpdateText":"You must update Oynk to continue using the app",
+                "optionalUpdateText": "A new version of Oynk is available. Would you like to update?",
+                "id": 1
+        }
+}

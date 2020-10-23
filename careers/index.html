@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="”description”"
+    content="Come, discover exciting opportunities here at YAP. With an inclusive work culture, you get to explore the booming world of fintech." />
+  <meta name="keywords"
+    content="jobs at yap, yap api developer, yap fullstack developer api, yap api platform job openings" />
+  <title>YAP - Careers - Join us for a great career</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <script>
+    $(document).ready(function () {
+      $('a[href^="#life"]').on("click", function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $target.offset().top,
+            },
+            900,
+            "swing",
+            function () { }
+          );
+      });
+      $('a[href^="#seeOpening"]').on("click", function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $target.offset().top - 150,
+            },
+            900,
+            "swing",
+            function () { }
+          );
+      });
+    });
+  </script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/uae">
+          <img src="/assets/images/logo.svg" alt="Yap_Logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management/">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link navactive" href="/contact">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section career_section">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6 order-sm-1 order-2 mar_24">
+          <span class="yap_tagline">Careers</span>
+
+          <h1 class="yap_title">
+            Discover exciting opportunities in Fintech
+          </h1>
+
+          <p>
+            At M2P, we are passionate about building cutting-edge API
+            infrastructure and transforming every business to Fintech.
+          </p>
+          <p>We believe in changing the world with one API at a time.</p>
+
+          <div class="grp_btn">
+            <!-- <a href="#life" class="butn butn-light">Life at YAP</a> -->
+
+            <a href="#seeOpening" class="butn butn-dark">Life at YAP</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 order-1">
+          <img class="img-fluid" src="/assets/images/careerbanner.svg" alt="Launch_career" />
+        </div>
+      </div>
+
+      <div class="res_top">
+        <div class="full_span">
+          <span class="yap_tagline">SEE OUR OPENINGS</span>
+        </div>
+
+        <div class="row current_open">
+          <div class="col-md-6">
+            <div class="plain_icon_col marg_24">
+              <div class="plain_icon_content">
+                <h4>Find your role</h4>
+
+                <p class="carre_para">
+                  Are you interested in joining us? Send your profiles to <a href="mailto:careers@m2p.me"
+                    class="a-link">careers@m2p.me</a>. We will get back to you
+                  shortly.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="position hide_desk" id="seeOpening">
+    <div class="spring_inner_section no_padd">
+      <div class="container inner_section">
+        <div class="position_details">
+          <ul>
+            <li class="marg">
+              <span class="tagline">Position</span><span class="tagline">Location</span><span><img
+                  src="/assets/images/single-product/position.svg" alt="" /></span>
+            </li>
+            <li>
+              <a href="/career-description"><span>Sales Manager</span>
+                <span class="text">Dubai, UAE</span><span class="no_widht"><img
+                    src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+            <li>
+              <a href="/career-description"><span>Product Manager</span>
+                <span class="text">Dubai, UAE</span><span class="no_widht"><img
+                    src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+            <li>
+              <a href="/career-description"><span>Business Development Manager</span>
+                <span class="text">Dubai, UAE</span><span class="no_widht"><img
+                    src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="position hide_mobile">
+    <div class="spring_inner_section no_padd">
+      <div class="container inner_section">
+        <div class="position_details">
+          <ul>
+            <li class="marg">
+              <span class="tagline">Position</span><span class="tagline">Location</span><span><img
+                  src="/assets/images/single-product/position.svg" alt="" /></span>
+            </li>
+            <li>
+              <a href="/career-description"><span>Sales Manager
+                  <span class="text">Dubai, UAE</span></span>
+                <span class="no_widht"><img src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+            <li>
+              <a href="/career-description"><span>Product Manager <span class="text">Dubai, UAE</span></span>
+                <span class="no_widht"><img src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+            <li>
+              <a href="/career-description"><span>Business Development Manager
+                  <span class="text">Dubai, UAE</span></span>
+                <span class="no_widht"><img src="/assets/images/single-product/position.svg" alt="" /></span></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section__career d-flex align-items-center career_top">
+      <div class="inner_section container container p-0">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/assets/images/team_yap.svg" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-6 d-flex align-content-center justify-content-start career_left career_res_left"
+          >
+            <div class="career_content">
+              <span class="yap_tagline">development kit</span>
+
+              <h3 class="yap_title career_subscribe_text">
+                A two line healine for Banner
+              </h3>
+
+              <p class="para16">
+                Come join us if you are crazy about making a difference
+              </p>
+
+              <a href="javascript:;" class="butn butn-white-trans">Schedule</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  <section class="section__flows flows_feature" id="life" style="margin-bottom: 70px;">
+    <div class="inner_section container pad_90">
+      <div class="">
+        <div class="full_span">
+          <span class="yap_tagline">Life at m2p</span>
+        </div>
+        <div class="row current_open">
+          <div class="col-md-6 col-xl-6 col-xs-12">
+            <div class="plain_icon_col marg_24">
+              <div class="plain_icon_content">
+                <h4 class="carrer_life">Learn about
+                  working at M2P</h4>
+
+                <p class="flo">
+                  We value our employees’ interests, growth, and success and encourage them to become their best
+                  version.</p>
+
+                <p> With an inclusive work culture, we empower our employees to realize their passion, innovate,
+                  problem-solve, re-invent,
+                  and make a difference.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-6 col-xs-12">
+            <img src="../assets/images/about.svg" class="img-fluid" />
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="Swipe_UP" /></a></span>
+  </div>
+</body>
+
+</html>

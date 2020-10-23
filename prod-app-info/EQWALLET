@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 1,
+                "appName":  "EQWALLET",
+                "minimumRequiredVersion": 135,
+                "currentVersion": 135,
+                "dbVersion": "8",
+                "mandatoryUpdateText":"We had something very important to fix and we have done it. Please update now to continue experiencing Purz",
+                "optionalUpdateText": "A new version of Purz is available",
+                "id":1,
+                "linkCardFee":100
+        }
+}

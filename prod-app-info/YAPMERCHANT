@@ -1,0 +1,14 @@
+{
+        "result": {
+                "version": 1,
+                "appName": "DCB BHARATQR MERCHANT",
+                "minimumRequiredVersion": 212,
+                "currentVersion": 212,
+                "dbVersion": "4",
+                "updateText": "A new version of BharatQR DCB Merchant is available",
+                "mandatoryUpdateText":"A new version of BHARATQR DCB MERCHANT is available. Kindly update the app to continue",
+                "optionalUpdateText": "A new version of BHARATQR DCB MERCHANT is available. You may choose to update now, or later",
+                "id": 1
+                
+        }
+}

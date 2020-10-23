@@ -1,0 +1,12 @@
+{
+	"result": {
+		"version": 1,
+		"appName": "HAVELLS",
+		"minimumRequiredVersion": 100,
+		"currentVersion": 100,
+		"dbVersion": "1",
+		"mandatoryUpdateText":"This version of HAVELLS is no longer supported. You must update the app to continue using it",
+		"optionalUpdateText": "A new version of HAVELLS is available",
+		"id":1
+	}
+}

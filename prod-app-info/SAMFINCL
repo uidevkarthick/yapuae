@@ -1,0 +1,12 @@
+{
+	"result": {
+		"version": 1,
+		"appName": "SAMFINCL",
+		"minimumRequiredVersion": 100,
+		"currentVersion": 100,
+		"dbVersion": "1",
+		"updateText": "A new version of SAMFINCL is available",
+		"id": 1,
+		"c2mDirectBaseUrl": "https://samfincl.yappay.in/Yappay"
+	}
+}

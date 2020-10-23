@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 1,
+                "appName": "PIGGY",
+                "minimumRequiredVersion": 405,
+                "currentVersion": 405,
+                "dbVersion": "4",
+                "updateText": "A new version of Oynk is available",
+                "mandatoryUpdateText":"This version of Oynk is no longer supported. You must update the app to continue using it",
+                "optionalUpdateText": "A new version of Oynk is available",
+                "id": 1
+        }
+}

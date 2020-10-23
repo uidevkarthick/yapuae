@@ -1,0 +1,1578 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="1486-MealCardT&amp;C_files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>ASUS</o:Author>
+  <o:LastAuthor>M2P</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>9</o:TotalTime>
+  <o:Created>2016-11-03T12:43:00Z</o:Created>
+  <o:LastSaved>2016-11-03T12:43:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>2113</o:Words>
+  <o:Characters>12047</o:Characters>
+  <o:Company>Hewlett-Packard</o:Company>
+  <o:Lines>100</o:Lines>
+  <o:Paragraphs>28</o:Paragraphs>
+  <o:CharactersWithSpaces>14132</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=dataStoreItem href="1486-MealCardT&amp;C_files/item0001.xml"
+target="1486-MealCardT&amp;C_files/props002.xml">
+<link rel=themeData href="1486-MealCardT&amp;C_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="1486-MealCardT&amp;C_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2010TableStyleRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536858881 -1073711037 9 0 511 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"Comment Text";
+	mso-style-link:"Comment Subject Char";
+	mso-style-next:"Comment Text";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"Comment Text Char";
+	mso-style-link:"Comment Subject";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-weight:bold;}
+span.tgc
+	{mso-style-name:_tgc;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1286280206;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1721349808 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:39;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72" style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>DCB YAP
+EMPLOYEE BENEFITS CARD TERMS AND CONDITIONS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>These Terms and Conditions are applicable to DCB
+YAP Employee Benefits Card issued to DCB YAP Employee Benefits Card-holders by
+DCB Bank Limited, a Banking Company incorporated under the Companies Act, 1956
+(CIN: L99999MH1995PLC089008) and deemed to exist within the meaning of
+Companies Act, 2013, having its Registered Office at 601 &amp; 602, Peninsula
+Business Park, 6th Floor, Tower A, Senapati Bapat Marg, Lower Parel, Mumbai–400
+013. <span style='mso-spacerun:yes'> </span>In these Terms and Conditions 'you'
+denotes the DCB YAP Employee Benefits Card-holders and 'DCB Bank' denotes DCB
+Bank Limited. Please make sure you have read the DCB YAP Employee Benefits Card
+Terms and Conditions carefully before using the DCB YAP Employee Benefits Card.
+By using the DCB YAP Employee Benefits Card you are unconditionally and
+irrevocably accepting the terms and conditions listed hereunder and will be
+bound by the same at all times and you accept the onus of ensuring compliance
+with the relevant rules and regulations framed by the Reserve Bank of India
+(RBI), that are in existence or as may be amended/modified from time to time
+and any other corresponding enactment/law in force from time to time.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Definitions<o:p></o:p></span></u></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-.25in;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+Helvetica'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;line-height:107%;
+font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Company or Corporate - </span><span
+style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>A <span
+style='mso-bidi-font-weight:bold'>company</span> is an association or
+collection of individuals sharing as common purpose and unite in order to focus
+their various talents and organize their collectively available skills or
+resources to achieve specific, declared goals<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+Helvetica'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;line-height:107%;
+font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Merchant Establishment - Is a place where
+customer visits for buying goods or services, the person offering such good or
+service is called the merchant and the establishment is the place where such
+good or service is offered. <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span class=tgc><span
+style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:Helvetica'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span></span><![endif]><span
+class=tgc><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-weight:bold'>Point of Sale</span></span><span class=tgc><span
+style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif'> (<span
+style='mso-bidi-font-weight:bold'>POS</span>) - Is the time and place where a
+retail transaction is completed. It is the point at which a customer makes a
+payment to the merchant in exchange for goods or after provision of a service.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span class=tgc><span
+style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:Helvetica'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span></span><![endif]><span
+class=tgc><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>Mobile
+Application or Mobile App - A <span style='mso-bidi-font-weight:bold'>mobile
+application</span>, most commonly referred to as an <span style='mso-bidi-font-weight:
+bold'>app</span>, is a type of <span style='mso-bidi-font-weight:bold'>application</span>
+software designed to run on a <span style='mso-bidi-font-weight:bold'>mobile</span>
+device, such as a smartphone or tablet computer. <span style='mso-bidi-font-weight:
+bold'>Mobile applications</span> frequently serve to provide users with similar
+services to those accessed on PCs.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+Helvetica'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=tgc><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif'>Quick Response (QR) Code -
+A <span style='mso-bidi-font-weight:bold'>QR code</span> (<span
+style='mso-bidi-font-weight:bold'>quick response code</span>) is a type of 2D
+bar <span style='mso-bidi-font-weight:bold'>code</span> that is used to provide
+easy access to information through a smartphone. In this process, known as
+mobile tagging, the smartphone's owner points the phone at a <span
+style='mso-bidi-font-weight:bold'>QR code</span> and opens a barcode reader app
+which works in conjunction with the phone's camera.</span></span><span
+style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Product<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits card is a Visa
+Prepaid card that has been issued to employees of corporates based on an
+application for issuance of the card by the employee or their employers. The
+card comes with multiple pockets with capability to issue various allowances
+including but not limited to Meal, Medical, Fuel and Corporate travel and
+Entertainment reimbursements as provided by the employer from time to time. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits card also comes
+with a linked Mobile application that can be downloaded from respective mobile
+platforms for use in conjunction with the card. The mobile application allows
+the user to pay at merchant establishments by scanning a Quick Response Code
+and pay using the mVisa service provided by Visa to pay at retail stores. The
+employee will authorize the transaction using a Personal Identification Number (PIN)
+selected by the employee at the time of registering with the application. The
+application will also be upgraded with features from time to time and the Bank
+shall communicate the same to the employee. Additionally, the employee can
+review last few transactions, check balance and lock or unlock the card using
+the mobile application. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits card comes with
+multiple pockets to meet different benefit requirements. Each pocket will have
+appropriate usage limit and restrictions, for example, the meal allowance can
+be used only for spends on ready to eat food and beverages. The fuel allowance
+can be used only for refilling fuel at Petrol pumps. Please refer to the
+detailed FAQ section for more on the usage of the different pockets <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Application<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card-holder
+acknowledges and understands that the DCB YAP Employee Benefits Card is being
+issued on the basis of his/her application.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>DCB YAP Employee Benefits Card Validity and DCB
+YAP Employee Benefits Card -holder's Obligations.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card is valid
+only in India and up to the last working day of the month and year printed on
+the DCB YAP Employee Benefits Card.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The issue and use of the DCB YAP Employee
+Benefits Card shall be subject to the rules and regulations as issued by DCB
+Bank and the Reserve Bank of India and other regulators from time to time.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card shall be
+valid only for transaction options, as permitted by DCB Bank from time to time
+in India, at Merchant Establishments and <span
+style='mso-spacerun:yes'> </span>only for permitted spend categories. DCB Bank
+and the Merchant Establishments concerned, reserve the right to refuse the use
+of the DCB YAP Employee Benefits Card at any time, for any reason, whatsoever.
+Any charge levied by the Merchant Establishment on the purchase made by you
+using the DCB YAP Employee Benefits Card, shall be settled by you with the
+Merchant Establishment directly and DCB Bank shall not be responsible for the
+same.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Upon usage of the DCB YAP Employee Benefits
+Card at a Merchant Establishment, it shall be your responsibility to sign and
+collect the customer copy of the charge slip/s upon making payment using the DCB
+YAP Employee Benefits Card. DCB Bank shall not provide copies of the charge
+slips to the DCB YAP Employee Benefits Card -holder, provided however that if
+the DCB YAP Employee Benefits Card -holder makes any such request within forty
+five days of the relevant transaction, DCB Bank may, at its sole discretion,
+provide copies of the charge slips at a charge mentioned in the Schedule of
+Charges section in this Terms &amp; Conditions, which is subject to change from
+time to time. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>You shall, prior to availing the DCB YAP
+Employee Benefits Card Services from DCB Bank, obtain appropriate advice and
+shall familiarize yourselves with the associated risks and all the terms and
+conditions pertaining to the service. You shall further verify all facts and
+statutory provisions and seek appropriate professional advice including the
+relevant tax implications. You hereby accept and acknowledge that DCB Bank is
+absolved of any liability to any person including you, in respect of anything
+done or omitted to be done by you in any manner whatsoever.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card will be at
+all times the property of DCB Bank and shall be returned to DCB Bank
+unconditionally and immediately upon DCB Bank's request. You are requested to
+ensure the identity of the DCB Bank's Officer before handing over the DCB YAP
+Employee Benefits Card.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card is not transferable
+or assignable to anyone by the DCB YAP Employee Benefits Card -holder under any
+circumstances.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>You must sign on the reverse side of the DCB
+YAP Employee Benefits Card immediately upon receipt. You must not permit any
+other person to use it and should safeguard the DCB YAP Employee Benefits Card
+from misuse by retaining the DCB YAP Employee Benefits Card under your personal
+custody and control at all times.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Sometimes the transaction amount and/or tips,
+surcharge or exceptional transaction amount would be debited to your account
+subsequently/at a later date. The DCB YAP Employee Benefits Card -holder will
+ensure that he/she has/had sufficient balance on the DCB YAP Employee Benefits
+Card to meet any such transactions.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card -holder will
+be responsible for transactions effected by using the DCB YAP Employee Benefits
+Card whether authorised by the DCB YAP Employee Benefits Card -holder or not,
+and shall indemnify<span style='mso-spacerun:yes'>  </span>DCB Bank against any
+loss or damage caused by any unauthorized use of the DCB YAP Employee Benefits
+Card, including any penal action arising therefrom on account of any violation
+of RBI guidelines or any other law being in force in India notwithstanding the
+termination of this arrangement.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>You hereby undertake to destroy the DCB YAP
+Employee Benefits Card on its expiry or closure by cutting it into several
+pieces through the magnetic strip. You may call DCB Bank 24 Hour Customer Care
+for DCB YAP Employee Benefits Card renewal, reissue or closure before expiry.
+DCB Bank reserves the sole right and discretion of renewing your DCB YAP
+Employee Benefits Card account on expiry.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card -holder will
+inform DCB Bank in writing about irregularities or discrepancies that exist in
+the transaction details at a Merchant Establishment within 7 (seven) days of
+the transaction processed. If no such notice is received during this time, DCB
+Bank will assume the correctness of transactions.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Fees<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Transaction fees wherever applicable, will be
+debited to the DCB YAP Employee Benefits Card at the time of posting debit
+entry of the transaction amount or at the end of day.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The charges / fees applicable on the usage of
+the DCB YAP Employee Benefits Card maybe revised or changed by DCB Bank from
+time to time without prior intimation to the DCB YAP Employee Benefits Card -holder(s).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Any charges/fees appearing in these terms and
+conditions does not include service tax and, or any other cess or taxes, the
+same may be collected in addition to such fees or charges as applicable from
+time to time.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Lost or
+Stolen DCB YAP Employee Benefits Card<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>In the event that the DCB YAP Employee Benefits
+Card is lost or stolen, the occurrence must be reported to DCB Bank 24 Hour
+Customer Care immediately by fastest means of communication followed with a
+written communication. A copy of the acknowledged police complaint must
+accompany the said written communication. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>You hereby undertake to indemnify DCB Bank fully
+against any liability (civil or criminal), loss, cost (including attorney fees),
+expenses or damages that may arise due to loss or misuse of the DCB YAP
+Employee Benefits Card in the event that it is lost and not reported to DCB
+Bank, or lost and misused before DCB Bank is informed. Provided you have in all
+respects complied with the terms and conditions, a replacement DCB YAP Employee
+Benefits Card may be issued at the sole discretion of DCB Bank at the
+applicable fee.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>If it is determined that you were grossly
+negligent or fraudulent in handling of the DCB YAP Employee Benefits Card, DCB
+Bank would not entertain any request for refund/ reimbursement of fraudulent
+usage of the lost/stolen DCB YAP Employee Benefits Card, and if any amount is
+credited to your DCB YAP Employee Benefits Card based on your representation
+and, or any information provided by you, DCB Bank would recover the amount from
+you without any prior notice. You hereby undertake to indemnify DCB Bank fully
+against any liability, loss, cost (including attorney fees), expenses, damage
+that may arise due to your negligent or fraudulent handling of the DCB YAP
+Employee Benefits Card.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>Should you subsequently recover the DCB YAP
+Employee Benefits Card, as it cannot be used, please destroy the DCB YAP
+Employee Benefits Card by cutting it into several pieces through the magnetic
+strip.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Disputes<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>In case of purchase transactions, a sales slip
+with your signature together with the DCB YAP Employee Benefits Card number
+noted thereon (by masking some of the digits for security reasons) shall be
+conclusive evidence between DCB Bank and you as to the extent of the liability
+incurred by you and DCB Bank shall not be required to ensure that you have
+received the goods purchased / the service availed to your satisfaction.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>DCB Bank shall make bonafide and reasonable
+efforts to resolve your disagreement with an applicable charge indicated in the
+account statement or as otherwise determined by you within two (2) months of
+the receipt of notice of disagreement. If after such effort DCB Bank determines
+that the charge is correct, then DCB Bank shall communicate the same to you.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>DCB Bank accepts no responsibility and
+liability for the refusal of any merchant establishment to honor the DCB YAP
+Employee Benefits Card.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>This arrangement will be construed in
+accordance with and governed by the laws of India. All disputes are subject to
+the exclusive jurisdiction of the Courts of Mumbai in India irrespective of
+whether any other Court may have concurrent jurisdiction in the matter. The
+mere fact that any service can be accessed through internet, mobile or phone by
+the DCB YAP Employee Benefits Card -holder in a country other than India shall
+not be interpreted to imply that the laws of the said country govern these
+terms and conditions and, or the operations in the said accounts of the DCB YAP
+Employee Benefits Card-holder and, or the use of any of these services.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The DCB YAP Employee Benefits Card -holder will
+be liable and responsible for all the costs associated with the collection of
+dues, legal expenses (should it become necessary to refer the matter to any
+agent/advocate), or where legal resources have been utilized in the resolution
+of a dispute.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Limitation
+of Liability<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>You agree that 'SMS alerts' are sent by DCB
+Bank to the Mobile number registered for SMS alerts with DCB Bank and you shall
+take steps to get registered for 'SMS alerts' to receive alerts for
+transactions done on your DCB YAP Employee Benefits Card.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>The above terms and conditions are subject to
+change from time to time at the sole discretion of DCB Bank. For updated terms
+and conditions, you may visit DCB Bank's website www.dcbbank.com.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:12.0pt;line-height:107%;font-family:"Helvetica",sans-serif;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Schedule
+of Charges<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=233 valign=top style='width:175.1pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Helvetica",sans-serif;mso-bidi-font-family:
+  "Times New Roman";mso-bidi-theme-font:minor-bidi'>Particulars<o:p></o:p></span></b></p>
+  </td>
+  <td width=126 valign=top style='width:94.5pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Helvetica",sans-serif;mso-bidi-font-family:
+  "Times New Roman";mso-bidi-theme-font:minor-bidi'>Amount (INR)*<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=233 valign=top style='width:175.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Helvetica",sans-serif;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Card issuance
+  fees<o:p></o:p></span></p>
+  </td>
+  <td width=126 valign=top style='width:94.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:12.0pt;
+  font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'>100.00<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=233 valign=top style='width:175.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Helvetica",sans-serif;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Card
+  replacement<o:p></o:p></span></p>
+  </td>
+  <td width=126 valign=top style='width:94.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:12.0pt;
+  font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'>100.00<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=233 valign=top style='width:175.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Helvetica",sans-serif;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Card
+  annual fee<o:p></o:p></span></p>
+  </td>
+  <td width=126 valign=top style='width:94.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:12.0pt;
+  font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'>100.00<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td width=233 valign=top style='width:175.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span class=SpellE><span style='font-size:12.0pt;
+  font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'>Chargeslip</span></span><span
+  style='font-size:12.0pt;font-family:"Helvetica",sans-serif;mso-bidi-font-family:
+  "Times New Roman";mso-bidi-theme-font:minor-bidi'> retrieval fee<o:p></o:p></span></p>
+  </td>
+  <td width=126 valign=top style='width:94.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:12.0pt;
+  font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'>100.00<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>*Service Tax or any other tax / Cess as
+applicable levied as applicable will be levied on all the fees and charges.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Helvetica",sans-serif;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi'>DCB Bank, at its discretion may reduce or waive
+any of the above Schedule of Charges. Such offers shall be communicated at the
+time of sourcing or at any time subsequently.<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

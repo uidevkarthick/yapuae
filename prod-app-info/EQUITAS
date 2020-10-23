@@ -1,0 +1,12 @@
+{
+	"result": {
+		"version": 1,
+		"appName": "EQUITAS",
+		"minimumRequiredVersion": 102,
+		"currentVersion": 102,
+		"dbVersion": "1",
+		"updateText": "A new version of IITMRP Foodcourt App is available. Kindly update the app to continue using the services",
+		"id": 1,
+		"c2mDirectBaseUrl": "http://equitas.iitm.yappay.in:6565/Yappay"
+	}
+}

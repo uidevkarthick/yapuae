@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Product Flow - YAP</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <link href="/assets/css/prism.css" rel="stylesheet" />
+  <script src="/assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+  <script>
+    let intervel = [];
+    $(document).on("click", "#run_code_ss", function () {
+      intervel.map(clearInterval);
+      intervel = [];
+      if ($("#pri_code").hasClass("show")) {
+        $("#pri_code")
+          .animate(
+            {
+              height: 368,
+            },
+            200
+          )
+          .removeClass("show");
+        $("#api_list_group li").each(function (index) {
+          let each = this;
+          let newIntervel = setTimeout(function () {
+            $(each).removeClass("list_effect");
+          }, (index + 1) * 1000);
+          intervel.push(newIntervel);
+        });
+      } else {
+        $("#pri_code")
+          .animate(
+            {
+              height: 600,
+            },
+            200
+          )
+          .addClass("show");
+        $("#api_list_group li").each(function (index) {
+          let each = this;
+          let newIntervel = setTimeout(function () {
+            $(each).addClass("list_effect");
+          }, (index + 1) * 1000);
+          intervel.push(newIntervel);
+        });
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.svg" alt="logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="product-list.html">Flows</a>
+              </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/">Docs</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section banner_for_single_product">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6">
+          <span class="yap_tagline">Payments\ Gift</span>
+
+          <h2 class="yap_title">Digital gifting made simple</h2>
+          <p>
+            A must for festive India, YAP's gift card platform comes with
+            quick integration and a multitude of gifting options.
+          </p>
+
+          <div class="grp_btn">
+            <a href="#" class="butn butn-light">Try out</a>
+
+            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/single-product/Gift.png" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="yap_tagline">product features</span>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-md-4">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Integration.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Integration</h4>
+
+              <p>
+                Plug our digital gift card API into your system with simple
+                clicks and manage large scale gift programs seamlessly.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Customized gifting.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Customized gifting</h4>
+
+              <p>
+                Our flexible platform allows your customer to choose any gift
+                they like. We make both giftings and redeeming an exciting
+                experience for your customers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Reward catalog.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Reward catalog</h4>
+
+              <p>
+                Be it gift cards or vouchers; our intuitive gift platform
+                offers a plethora of options inclusive of popular brands and
+                categories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-md-4">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Network certified.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Network certified</h4>
+
+              <p>
+                Global network players power YAP's gift program that enables a
+                user to redeem his/her card in any e-commerce website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_doodle_animation">
+    <div class="container inner_section doodle_height">
+      <span class="yap_tagline">Flow in use</span>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>That's how we made gifting an immersive experience</h2>
+          <!-- <a href="javascript:;" class="butn butn-white-trans"
+              >Read use case in detail</a
+            > -->
+        </div>
+        <div class="col-md-6">
+          <div class="doodle_img">
+            <img src="/assets/images/single-product/shape.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__products secound_flow_section padding0">
+    <div class="inner_section container">
+      <span class="yap_tagline">the Challenge</span>
+      <div class="row">
+        <div class="col-md-3">
+          <h4 class="yap_title">
+            Looking for a versatile e-gifting platform
+          </h4>
+        </div>
+
+        <div class="col-md-5">
+          <p class="single_para_top">
+            Federal bank was interested in designing a feature that allows
+            their customers to send e-gifts easily. They wanted to introduce
+            gifting options as part of the banking experience. They wanted
+            their customers to have access to an extensive collection of
+            vouchers.
+          </p>
+          <p>
+            Further, Fed Bank wanted its customers to embrace the tradition of
+            e-gifting with the freedom of deciding when, how, and what to
+            redeem.
+          </p>
+        </div>
+      </div>
+      <div class="icon_list">
+        <span class="yap_tagline">the solution</span>
+        <div class="row">
+          <div class="col-md-3">
+            <h4 class="yap_title">
+              Offering personalized gifting through APIs
+            </h4>
+          </div>
+
+          <div class="col-md-5">
+            <p class="single_para_top">
+              Federal Bank used YAP APIs to bring a broad category of gift
+              choices available for their customers. As a result, Fed Bank was
+              able to simplify its customer's journey of choosing and
+              redeeming a digital gift.
+            </p>
+            <p>
+              They also saw a significant improvement in customer acquisition
+              and retention due to the personalized experience offered by YAP.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="icon_list">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="yap_tagline">the outcome</span>
+
+            <h4 class="yap_title">Transactions - and counting...</h4>
+          </div>
+
+          <div class="col-md-3">
+            <div class="inner_flow_content">
+              <span class="tagline">No. of transactions </span>
+              <p class="no_bottom"><span>1.8</span> Million</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner_flow_content">
+              <span class="tagline">amount transacted </span>
+              <p class="no_bottom"><span>11.5</span> Million $</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mar_24">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-3">
+              <a href="/flows" class="read_flow_details"
+                >Read flow details</a
+              >
+            </div>
+            <div class="col-md-3"></div>
+          </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section__6 end_point_overview">
+    <div class="inner_section container">
+      <div class="row">
+        <div class="col-md-4 order-xs-1">
+          <span class="yap_tagline">end point overview </span>
+
+          <h2 class="yap_title">A peek into YAP's gift card APIs</h2>
+          <p>Discover the ease of gifting with YAP's Gift program</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="api_list">
+            <ul id="api_list_group">
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The user logs in to the gift portal through mobile number
+                  OTP generation</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The user is then taken to the gifting page with choices of
+                  gifting/brand voucher</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">If brand voucher is chosen, the choices of vouchers are
+                  shown</a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">If chosen a gift card, the beneficiary needs to provide the
+                  contact details and required amount
+                </a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">The beneficiary will then receive virtual gift card details
+                  via SMS
+                </a>
+              </li>
+              <li>
+                <span><img src="/assets/images/single-product/tick.svg" class="blacktick" alt="" />
+                  <img src="/assets/images/single-product/greentick.svg" class="greentick" alt="" /> </span><a
+                  href="">Based on the amount redeemed, the beneficiary can use their
+                  gift card or voucher</a>
+              </li>
+            </ul>
+            <div class="view_api_docs">
+              <!-- <a href="https://docs.yappay.in" class="butn butn-dark">View API Docs</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/assets/images/single-product/overlay.svg" alt="" class="overloay_img" />
+          <div class="code_bx">
+            <div class="tlt_sec">
+              <div class="hed_tlt_sec">
+                <p class="tlt">API Response</p>
+                <div class="ac_center">
+                  <span id="run_code_ss" class="run_code">Run</span>
+                </div>
+              </div>
+            </div>
+            <div class="c_prt">
+              <pre id="pri_code" style="height: 368px">
+                            <code class="language-json">
+                                {
+                                    "mti": "0200",
+                                    "pan": "5088830000000037",
+                                    "processingCode": "311000",
+                                    "transactionAmount": "0000000000000",
+                                    "settlementAmount": null,
+                                    "cardHolderBillingAmount": null,
+                                    "dateTimeTransaction": "0412183004",
+                                    "settlementConversionRate": null,
+                                    "cardholderBillingConversionRate": null,
+                                    "stan": "247972",
+                                    "rrn": "242772502272",
+                                    "timeLocalTransaction": null,
+                                    "dateLocalTransaction": "183008",
+                                    "expiryDate": null,
+                                    "settlementDate": null,
+                                    "conversionDate":null,
+                                    "mcc": "6011",
+                                    "channel": null,
+                                    "acquiringCountryCode": "356",
+                                    "posEntryMode": "901",
+                                    "cardSeqNumber": null,
+                                    "pointOfServiceConditionCode": "00",
+                                    "feesAmount": null,
+                                    "acquiringInstitutionCode": "720397",
+                                    "forwardingInstitutionCode": null,
+                                    "track2Data": "5088830000000037=2100520768000000000",
+                                    "authorizationIdResponse": null,
+                                    "responseCode": null,
+                                    "serviceConditionCode": "520",
+                                    "cardAcceptorTerminalId": "TEST1234",
+                                    "cardAcceptorId": "TEST12345678901",
+                                    "cardAcceptorNameLocation": "M2PBANK KARTHICK TNIN",
+                                    "additionalResponseData": null,
+                                    "track1Data": null,
+                                    "additionalData48": "051005POS010520032940560023105800500999061030000000000000000012000000000000071042103.014.161.0050000000000000000000000003560770401000000000000000000000000000000000105200",
+                                    "transactionCurrencyCode": "356",
+                                    "settlementCurrencyCode": null,
+                                    "cardholderBillingCurrencyCode": null,
+                                    "pinData": "419E0B8AAD1D2B2F0000000000000000",
+                                    "additionalAmount": "9090356D000000001000",
+                                    "chipData": null,
+                                    "adviceReasonCode": null,
+                                    "posDataCode": "5116615GA000000400051AddressAddressAddres",
+                                    "privateData1BiometricData": null,
+                                    "privateData2EncryptedBiometricData": null,
+                                    "networkManagementCode": null,
+                                    "originalDataElement": null,
+                                    "fileUpdateCode": null,
+                                    "replacementAmount": null,
+                                    "fileName101": null,
+                                    "accountIdentification1": null,
+                                    "accountIdentification2": null,
+                                    "reservedForPrivateUse": nullrn
+                                }
+                                
+                            </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--    <section class="section__6 testimonial padding_90">
+      <div class="testimonial_container">
+        <div class="testimonial_content">
+          <span class="tagline">what they say?</span>
+
+          <div class="slider_ctrl">
+            <span class="pagingInfo"></span>
+          </div>
+
+          <div class="testimonial_slider">
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 class="testimonial_title">Innovative</h4>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="author_content">
+                    <p>
+                      Usually, when we partnered with Fintech’s, we always guide
+                      them with the nuances of regulations. But, when we
+                      partnered with YAP, we found that our wavelengths matched.
+                      We eventually co-created, collaborated, and launched many
+                      products and solutions in a short time
+                    </p>
+                  </div>
+
+                  <div class="author">
+                    <p>Ritesh Pai <br />Yes Bank, CDO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+  <section class="section__flows flows_feature we_support_sec">
+    <div class="container inner_section">
+      <div class="payment_headings">
+        <span class="yap_tagline">Explore other flows</span>
+
+        <div class="big_title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>In payments</h2>
+            </div>
+          </div>
+        </div>
+        <div class="icon_list">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/CardsnWallets.svg" alt="key" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Wallet and Cards</h3>
+
+                  <p>
+                    The Operating System for Wallet and Cards. Open APIs for
+                    those looking to innovate and launch compelling Payment
+                    products on top of a secure, robust and scalable platform
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-wallet-cards" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/UPI.svg" alt="dollar" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>UPI and Acceptance</h3>
+
+                  <p>
+                    Send and Accept Payments interoprably using BHIM UPI and
+                    BharatQR. Over Half-a-Million Merchants and counting
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-upi-acceptance" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/JiT.svg" alt="lend" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Just-in-Time Funding</h3>
+
+                  <p>
+                    Control transactions, authorize payments and have full
+                    control of money flow by funding the accounts
+                    Just-In-Time!
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-just-in-time" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Fleet.svg" alt="lend" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Fleet</h3>
+
+                  <p>
+                    Manage and track your Fleet spends across Toll Payments,
+                    Driver Expenses and Fuel payments using our Fleet
+                    Platform.
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-fleet" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/CrossBorder.svg" alt="lend" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Cross Border</h3>
+
+                  <p>
+                    Capture all inbound and outbound spends using our Digital
+                    Travel Money and Remittance platforms
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-cross-border" class="trycolor trycolor-out">Try out API</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__career product-no-btm d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+          <div class="career_content">
+            <span class="yap_tagline">overline copy</span>
+
+            <h3 class="yap_title carrer-heading">
+              A two line<br />
+              headline for Banner
+            </h3>
+
+            <p class="para16">
+              Come join us if you are crazy about making a difference
+            </p>
+
+            <a href="javascript:;" class="butn butn-white-trans">Action Text</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="" /></a></span>
+  </div>
+</body>
+
+</html>

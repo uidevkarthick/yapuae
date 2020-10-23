@@ -1,0 +1,13 @@
+{
+        "result": {
+                "version": 6,
+                "appName": "CSBCOLLECT",
+                "minimumRequiredVersion": 106,
+                "currentVersion": 106,
+                "dbVersion": "6",
+                "mandatoryUpdateText":"This version of APP is no longer supported. You must update the app to continue using it",
+                "optionalUpdateText": "A new version of APP is available",
+                "id":1
+        }
+}
+

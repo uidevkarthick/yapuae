@@ -1,0 +1,14 @@
+{
+        "result": {
+                "version": 4,
+                "appName": "KVBMERCHANT",
+                "minimumRequiredVersion": 103,
+                "currentVersion": 103,
+                "dbVersion": "1",
+                "mandatoryUpdateText":"You must update KVB MERCHANT APP to continue using",
+                "optionalUpdateText": "A new version of KVB MERCHANT APP is available",
+                "id":1,
+                "linkCardFee":100
+        }
+}
+

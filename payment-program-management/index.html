@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Powering fleet operators with APIs to manage, control, and view their fleet spends through YAPs fleet program. Be it FasTag or Fleet cards, we got you covered." />
+  <meta name="keywords"
+    content="yap fleet APIs, yap fleet program, fleet api yap, yap fastag api, yap fastag, fastag api yap " />
+  <title>YAP - Program Management</title>
+
+  <!-- Bootstrap CSS initialize -->
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS initialize -->
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+  <!-- Slick css -->
+
+  <link href="/assets/vendor/slick/slick.css" rel="stylesheet" />
+
+  <link href="/assets/vendor/slick/slick-theme.css" rel="stylesheet" />
+
+  <!-- Slick CSS -->
+
+  <!-- Main Css -->
+
+  <link href="/assets/css/main.less" rel="stylesheet/less" />
+
+  <!-- Main Css -->
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <script type="text/javascript" src="/assets/js/jquery-3.5.1.js"></script>
+
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- jQuery Bootstrap script initialize     -->
+
+  <!-- less initialize -->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
+
+  <!-- less initialize -->
+
+  <!-- Slick -->
+
+  <script src="/assets/vendor/slick/slick.min.js" type="text/javascript"></script>
+
+  <!-- Owl carousel -->
+
+  <!-- Custom js initialize -->
+
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+  <!-- Custom js initialize -->
+  <link href="/assets/css/prism.css" rel="stylesheet" />
+  <script src="/assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $("#header").load("/header.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_contain">
+      <nav class="navbar navbar-expand-lg yap_navbar">
+        <!-- Brand/logo -->
+
+        <a class="navbar-brand" href="/uae">
+          <img src="/assets/images/logo.svg" alt="Yap_Logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Links -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/uae">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/solutions" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container drop_nopad">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Payments</span>
+                        <ul class="mob_drop">
+                          <li><a href="/payment-cards">Cards</a></li>
+                          <li><a href="/payment-wallet">Wallet</a></li>
+                          <li>
+                            <a href="/payment-just-in-time">Just-in-Time</a>
+                          </li>
+                          <li>
+                            <a href="/payment-cross-border">Cross Border Payments</a>
+                          </li>
+                          <li><a href="/payment-fleet">Fleet</a></li>
+                          <li>
+                            <a href="/payment-program-management">Program Management</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Lending</span>
+                        <ul class="mob_drop">
+                          <li><a href="/lending-consumer">Consumer</a></li>
+                          <li><a href="/lending-corporate">Corporate</a></li>
+                          <li><a href="/lending-sme">SME</a></li>
+                          <!-- <li>
+                              <a href="/lending-creditcard">Credit Card</a>
+                            </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="top_dropdown">
+                        <span class="yap_tagline">Banking</span>
+                        <ul class="mob_drop">
+                          <li><a href="/banking-account">Accounts</a></li>
+                          <li><a href="/banking-deposit">Deposits</a></li>
+
+                          <li>
+                            <a href="/banking-investment">Investments</a>
+                          </li>
+                          <li><a href="/banking-payout-transfer/">Payouts & Transfers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/data-center">Data Center</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/springbo">SpringBo</a>
+              </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Developers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li> -->
+          </ul>
+
+          <ul class="navbar-nav ml-auto hidden-sm hidden-md hidden-xs support_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.yappay.in/login" target="_blank">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Get API Keys</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section_api init_section banner_for_single_product">
+    <div class="inner_section container">
+      <div class="row mb_55">
+        <div class="col-md-6">
+          <span class="yap_tagline">Payments | Program Management</span>
+
+          <h1 class="yap_title fleett">
+            Complete Program Management Processing
+          </h1>
+
+          <p>
+            A comprehensive program management platform for seamless E2E card
+            lifecycle management. Design, implement and manage the complete
+            journey of your card programs.
+          </p>
+
+          <p>
+            See our digital asset management services and product methodology
+          </p>
+
+          <div class="grp_btn">
+            <!-- <a href="#endpoint" class="butn butn-light">Try out</a> -->
+
+            <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-dark">Click here</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="/assets/images/single-product/Fleet.png" alt="Fleet" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="yap_tagline">Program Walkthrough</span>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/program-defination.svg" alt="fleet_payment_flow" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Program Definition</h4>
+
+              <p>
+                Requirement gathering and defining scope through client
+                requirements end-user interviews
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/program-imple.svg" alt="insights" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Program Implementation</h4>
+
+              <p>
+                Offer highly customized card programs as per your business
+                needs
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12"></div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/issuance.svg" />
+              <!-- <img src="/assets/images/Forget cash.svg" alt="Cashless" /> -->
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Issuance</h4>
+
+              <ul class="pgm-mgnt-lst">
+                <li>Card Issuance Management</li>
+                <li>
+                  Configurable user-defined and managed access-controlled
+                  backend portals
+                </li>
+                <li>Cards & Collaterals Design</li>
+                <li>Card Inventory Management</li>
+                <li>Card Fulfillment</li>
+                <li>Switch Network Processing</li>
+                <li>Risk Management</li>
+                <li>Fraud Monitoring</li>
+                <li>Chargeback Processing</li>
+                <li>Exceptions Management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/Ease-of-handle.svg" />
+              <!-- <img src="/assets/images/Forget cash.svg" alt="Cashless" /> -->
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Shared Services</h4>
+
+              <ul class="pgm-mgnt-lst">
+                <li>Reconciliations</li>
+                <li>Settlements</li>
+                <li>Custom Reporting</li>
+                <li>Customer Service (Call-centre support)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="section_doodle_animation">
+      <div class="inner_section container doodle_height">
+        <span class="yap_tagline">customers using this solution</span>
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+        <div class="doode_top">
+          <div class="row doodle_slider d-block">
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="doodle bx_ani">
+                <div class="fine_ap">
+                  <span id="box1" class="firstspan box">
+                    Doodle
+                  </span>
+                
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="fina bx_ani">
+                <div class="fine_aplle_height">
+                  <span id="box2" class="secoundspan box">
+                    <img
+                      src="/assets/images/single-product/fineapple.svg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="face bx_ani">
+                <div class="fb_rotate">
+                  <span id="box3" class="secoundspan">
+                    <img src="/assets/images/single-product/fb.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="mail bx_ani">
+                <div class="mail_height">
+                  <span id="box4" class="secoundspan">
+                    <img src="/assets/images/single-product/mail.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6 investor_col">
+              <div class="stroke bx_ani">
+                <div class="stroke_pad">
+                  <span id="box5" class="secoundspan">
+                    <img src="/assets/images/single-product/stroke.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section_doodle_animation">
+    <div class="container inner_section doodle_height">
+      <div class="row flow-xs-rev">
+        <div class="col-lg-10 col-md-10">
+          <span class="yap_tagline">Data centers</span>
+          <h2 class="fleet">
+            On-Cloud or Cloud-based Payment Infrastructure for Security
+            Tokenization, and Scalability
+          </h2>
+          <a href="javascript:;" class="butn butn-white-trans">Find out more</a>
+        </div>
+        <div class="col-lg-2 col-md-2">
+          <div class="doodle_img">
+            <img src="/assets/images/single-product/shape.svg" alt="semicircle" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__products secound_flow_section padding0">
+    <div class="inner_section container">
+      <span class="yap_tagline">Digital Asset Management Services</span>
+      <div class="row"></div>
+
+      <div class="icon_list service-lst">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Mobile Applications</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Web portals or dashboards</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Branding</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">UX/UI Design</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Development</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <span class="tagline">Data Analytics</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="inner_flow_content">
+              <a href="#" class="link_service">
+                <span class="tagline">Platforms</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_lst-pgm">
+    <div class="inner_section container">
+      <div class="title">
+        <span class="yap_tagline">M2P Product Methodology</span>
+      </div>
+      <div class="row single_products_flow">
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/read.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Understand</h4>
+
+              <ul class="pgm-mgnt-lst">
+                <li>Spark</li>
+                <li>Requirements</li>
+                <li>Questionnaire</li>
+                <li>User-research, interviews, and surveys</li>
+                <li>Personas and Journey Maps</li>
+                <li>Prioritize Insights</li>
+                <li>Brainstorming and Find-outs</li>
+                <li>Validate (Business Goal)</li>
+                <li>Features Finalize</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/idea.svg" />
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Ideate</h4>
+
+              <ul class="pgm-mgnt-lst">
+                <li>Experience Design (Wireframes)</li>
+                <li>Touchpoints</li>
+                <li>Scenarios and Walkthroughs</li>
+                <li>Internal test</li>
+                <li>Finalize</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="plain_icon_col">
+            <div class="plain_icon_box">
+              <img src="/assets/images/formulate.svg" />
+              <!-- <img src="/assets/images/Forget cash.svg" alt="Cashless" /> -->
+            </div>
+
+            <div class="plain_icon_content">
+              <h4>Execute</h4>
+
+              <ul class="pgm-mgnt-lst">
+                <li>Branding</li>
+                <li>Hi- Visual Design (With options and mock-ups)</li>
+                <li>Finalize Theme</li>
+                <li>Continue and Complete Design</li>
+                <li>Design system/Documentation</li>
+                <li>Development</li>
+                <li>Usability and Testing</li>
+                <li>Go live</li>
+                <li>Product Documentation</li>
+                <li>Maintenance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  <section class="section__6 testimonial padding_90">
+    <div class="testimonial_container">
+      <div class="testimonial_content">
+        <span class="tagline">what they say?</span>
+
+        <div class="slider_ctrl">
+          <span class="pagingInfo"></span>
+        </div>
+
+        <div class="testimonial_slider">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="testimonial_title">Innovative</h4>
+              </div>
+
+              <div class="col-md-6">
+                <div class="author_content">
+                  <p>
+                    We are now able to experiment with many new-age solutions
+                    like replacing physical cards with virtual cards for an
+                    overseas customer, trying to build solutions around
+                    tokenization, and testing with blue sky thinking.
+                  </p>
+                </div>
+
+                <div class="author">
+                  <p>Ritesh Pai <br />Yes Bank, CDO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- <section class="section__flows flows_feature we_support_sec">
+      <div class="inner_section container">
+        <div class="">
+          <div class="">
+            <span class="yap_tagline">explore other products</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/savemoney.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Gift</h4>
+
+                  <p>
+                    Omnichannel Gift platform for creating Your own brand of
+                    Corporate and Retail gifting products. Choose from a variety
+                    of Virtual, Physical, Tokenized cards, Brand vouchers and
+                    coupons.
+                  </p>
+
+                  <a
+                    href="/payment-gift"
+                    class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/plant.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>UPI and Acceptance</h4>
+
+                  <p>
+                    Send and Accept Payments interoprably using BHIM UPI and
+                    BharatQR. Over Half-a-Million Merchants and counting
+                  </p>
+
+                  <a
+                    href="/payment-upi-acceptance"
+                    class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/discount.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Just-in-Time Funding</h4>
+
+                  <p>
+                    Control transactions, authorize payments and have full
+                    control of money flow by funding the accounts Just-In-Time!
+                  </p>
+
+                  <a
+                    href="/payment-just-in-time"
+                    class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/discount.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Fleet</h4>
+
+                  <p>
+                    Manage and track your Fleet spends across Toll Payments,
+                    Driver Expenses and Fuel payments using our Fleet Platform.
+                  </p>
+
+                  <a href="/payment-fleet" class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="plain_icon_col">
+                <div class="plain_icon_box">
+                  <img src="/assets/images/discount.svg" />
+                </div>
+
+                <div class="plain_icon_content">
+                  <h4>Cross Border</h4>
+
+                  <p>
+                    Capture all inbound and outbound spends using our Digital
+                    Travel Money and Remittance platforms.
+                  </p>
+
+                  <a
+                    href="/payment-cross-border"
+                    class="trycolor trycolor-out"
+                    >Try out API</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="section__flows flows_feature we_support_sec">
+    <div class="container inner_section">
+      <div class="payment_headings">
+        <span class="yap_tagline">Explore other flows</span>
+
+        <div class="big_title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>In payments</h2>
+            </div>
+          </div>
+        </div>
+        <div class="icon_list">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/credit-card.svg" alt="gift" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Cards</h3>
+
+                  <p>
+                    Issue dynamic, programmable, and configurable physical or
+                    virtual cards for superior payment experience
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-cards" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/CardsnWallet.svg" alt="walletandcard" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Wallet</h3>
+                  <p>
+                    A comprehensive operating system for digital wallets - M2P
+                    offers user-friendly wallets for every card program
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-wallet" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/CrossBorder.svg" alt="JIT_Funding" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Cross Border Payments</h3>
+                  <p>
+                    Experience frictionless money transfers across borders
+                    using our currency exchange, payouts, remittance, and bill
+                    payment solutions
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-cross-border" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/JiT.svg" alt="JustInTime" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Just-in-Time</h3>
+
+                  <p>
+                    Set card limits, authorize payments in real-time, and
+                    enable a safe money flow by funding the accounts
+                    Just-In-Time
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-just-in-time" class="trycolor trycolor-out">Explore</a>
+                  <a target="_blank" href="https://docs.yappay.in/signup" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="icon_box border_color">
+                <div class="icon">
+                  <img src="/assets/images/Fleet.svg" alt="Fleet" />
+                </div>
+
+                <div class="icon_content">
+                  <h3>Fleet</h3>
+
+                  <p>
+                    Monitor, track, and analyze your fleet spends across toll
+                    payments, driver expenses, and fuel charges. Make
+                    data-driven financial decisions using our platform
+                  </p>
+                </div>
+
+                <div class="icon_btn hover_btn">
+                  <a href="/payment-fleet" class="trycolor trycolor-out">Explore</a>
+                  <a href="https://docs.yappay.in/signup" target="_blank" class="butn butn-light">Get API Keys</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__career product-no-btm d-flex align-items-center">
+    <div class="inner_section container p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/images/team_yap.svg" class="img-fluid" alt="Yap_Team" />
+        </div>
+
+        <div class="col-md-6 d-flex align-content-center justify-content-start career_left">
+          <div class="career_content">
+            <span class="yap_tagline">Lending | SME </span>
+
+            <h3 class="yap_title career_subscribe_text">
+              See your Fintech Ideas in Action
+            </h3>
+            <a href="/lending-creditcard" class="butn butn-white-trans career_btn">Know More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <div id="stop" class="scrollTop">
+    <span><a href=""><img src="/assets/images/Scrolltotop.svg" alt="SwipeUp" /></a></span>
+  </div>
+</body>
+
+</html>

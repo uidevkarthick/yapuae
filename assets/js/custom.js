@@ -325,7 +325,7 @@ $(document).ready(function () {
       .stop()
       .animate(
         {
-          scrollTop: $target.offset().top,
+          scrollTop: $target.offset().top - 40,
         },
         900,
         "swing",

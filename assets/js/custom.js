@@ -317,7 +317,7 @@ $(document).on("click", "#run_code_ss", function () {
 });
 
 $(document).ready(function () {
-  $('a[href^="#endpoint"]').on("click", function (e) {
+  $('a[href^="#"]').on("click", function (e) {
     e.preventDefault();
     var target = this.hash;
     var $target = $(target);

@@ -64,9 +64,9 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="/assets/images/caro_left.svg">',
+    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
 
-    nextArrow: '<img id="right_caro" src="/assets/images/caro_right.svg">',
+    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 1024,
@@ -105,9 +105,9 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="/assets/images/caro_left.svg">',
+    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
 
-    nextArrow: '<img id="right_caro" src="/assets/images/caro_right.svg">',
+    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
   });
 
   $slickElement.slick({
@@ -117,9 +117,9 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="/assets/images/caro_left.svg">',
+    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
 
-    nextArrow: '<img id="right_caro" src="/assets/images/caro_right.svg">',
+    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 600,
@@ -153,9 +153,9 @@ $(document).ready(function () {
     draggable: true,
     slidesToShow: 4,
 
-    prevArrow: '<img id="left_caro" src="/assets/images/caro_left.svg">',
+    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
 
-    nextArrow: '<img id="right_caro" src="/assets/images/caro_right.svg">',
+    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 1024,

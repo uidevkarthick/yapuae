@@ -65,10 +65,10 @@ $(document).ready(function () {
     draggable: true,
 
     prevArrow:
-      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
+      '<img id="left_caro" src="https://yappay.in/assets/images/caro_left.svg">',
 
     nextArrow:
-      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
+      '<img id="right_caro" src="https://yappay.in/assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 1024,
@@ -108,10 +108,10 @@ $(document).ready(function () {
     draggable: true,
 
     prevArrow:
-      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
+      '<img id="left_caro" src="https://yappay.in/assets/images/caro_left.svg">',
 
     nextArrow:
-      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
+      '<img id="right_caro" src="https://yappay.in/assets/images/caro_right.svg">',
   });
 
   $slickElement.slick({
@@ -122,10 +122,10 @@ $(document).ready(function () {
     draggable: true,
 
     prevArrow:
-      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
+      '<img id="left_caro" src="https://yappay.in/assets/images/caro_left.svg">',
 
     nextArrow:
-      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
+      '<img id="right_caro" src="https://yappay.in/assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 600,
@@ -160,10 +160,10 @@ $(document).ready(function () {
     slidesToShow: 4,
 
     prevArrow:
-      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
+      '<img id="left_caro" src="https://yappay.in/assets/images/caro_left.svg">',
 
     nextArrow:
-      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
+      '<img id="right_caro" src="https://yappay.in/assets/images/caro_right.svg">',
     responsive: [
       {
         breakpoint: 1024,

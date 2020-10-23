@@ -64,9 +64,11 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
+    prevArrow:
+      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
 
-    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
+    nextArrow:
+      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
     responsive: [
       {
         breakpoint: 1024,
@@ -105,9 +107,11 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
+    prevArrow:
+      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
 
-    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
+    nextArrow:
+      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
   });
 
   $slickElement.slick({
@@ -117,9 +121,11 @@ $(document).ready(function () {
 
     draggable: true,
 
-    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
+    prevArrow:
+      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
 
-    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
+    nextArrow:
+      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
     responsive: [
       {
         breakpoint: 600,
@@ -153,9 +159,11 @@ $(document).ready(function () {
     draggable: true,
     slidesToShow: 4,
 
-    prevArrow: '<img id="left_caro" src="../assets/images/caro_left.svg">',
+    prevArrow:
+      '<img id="left_caro" src="https://drive.google.com/file/d/1Sax9QcPGsbwT6zl7EWHgOJPRIubHHZBa/view?usp=sharing">',
 
-    nextArrow: '<img id="right_caro" src="../assets/images/caro_right.svg">',
+    nextArrow:
+      '<img id="right_caro" src="https://drive.google.com/file/d/1C-kNHY7bOw3xqmHWwgCVvCTLEu0e9gle/view?usp=sharing">',
     responsive: [
       {
         breakpoint: 1024,

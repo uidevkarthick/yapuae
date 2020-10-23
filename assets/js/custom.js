@@ -219,7 +219,7 @@ $(document).ready(function () {
 
   // news feeds
 
-  jQuery.getJSON("/assets/js/news.json", function (data) {
+  jQuery.getJSON("../assets/js/news.json", function (data) {
     console.log(data, "data");
     var newsTemp = "";
     for (var i = 0; i < data.length; i++) {

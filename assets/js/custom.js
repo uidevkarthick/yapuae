@@ -347,6 +347,11 @@ $(document).ready(function () {
       });
     }
   });
+
+  $(".drp-serv").click(function () {
+    $(this).toggleClass("rot");
+    $(this).parent().find(".drp-serv-lst").slideToggle();
+  });
 });
 
 // for news box height

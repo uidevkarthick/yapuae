@@ -5990,3 +5990,80 @@ section {
     text-decoration: underline;
   }
 }
+
+.drp-serv {
+  position: relative;
+  width: 100%;
+
+  &:after {
+    content: "";
+    background: url("../images/down-drp.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: 0.5s ease all;
+  }
+}
+
+.rot {
+  &:after {
+    content: "";
+    background: url("../images/down-drp.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+    transition: 0.5s ease all;
+    margin: auto;
+  }
+}
+.drp-cnt {
+  position: relative;
+
+  .drp-serv-lst {
+    float: left;
+    position: absolute;
+    left: 0;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 100%;
+    top: 100%;
+    z-index: 2;
+    display: none;
+
+    ul {
+      float: left;
+      width: 100%;
+      padding: 0;
+    }
+
+    li {
+      font-family: @font-ilisar_light;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 176%;
+      color: #4f4f4f;
+      list-style: none;
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a.shr-lnk {
+      color: #4f4f4f;
+      text-decoration: underline;
+    }
+  }
+}
